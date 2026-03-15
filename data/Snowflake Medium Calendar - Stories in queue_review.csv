@@ -157,3 +157,6 @@ Date,Time Published,Title,Author,Submission Date,Status,Persona,WG
 ,,Task-based orchestration for containerized Jobs,Yavor Georgiev,2026-03-13,In Review,,
 ,,Accelerating Portfolio Optimization on the Snowflake AI Data Cloud with NVIDIA Blackwell Compute,Jonathan Regenstein,2026-03-13,In Review,,
 ,,From Workspace to Production: CI/CD for Snowflake’s New Notebooks,Firvin Janardanan,2026-03-13,In Review,,
+,,Designing Right-Time Data Ingestion Pipelines in Snowflake,Maja Ferle,2026-03-14,In Review,,
+,,Snowflake AI SQL User Guide: AI_EXTRACT,Douglas Day,2026-03-14,In Review,,
+,,Snowflake AI SQL User Guide: AI_TRANSCRIBE,Douglas Day,2026-03-14,In Review,,
