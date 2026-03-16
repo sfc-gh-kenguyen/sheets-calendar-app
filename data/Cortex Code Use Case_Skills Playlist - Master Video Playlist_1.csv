@@ -23,7 +23,7 @@ dbt Core functionality,Zachary Blackwood,Published,DE,CLI,,Q1 Coco + DE Use Case
 Data Exploration / Analysis,Tyler Simons,Editing in progress,All,CLI,,Q1 Coco Use Cases Video Briefs,Cortex Code: 101 Data Visualizations,Tyler-Simons-Headshot.jpg,,,From Data Chaos to Clarity,Rapid Data Exploration with Cortex Code CLI,"Data exploration usually means inspecting schemas, profiling columns, and writing exploratory code just to understand what’s there. In this demo, we use Cortex Code CLI to handle that work directly from the terminal on real Snowflake data.
 
 Anything you want to understand in your data, just ask Cortex Code.",
-Building Cortex Data Agents,James Cha-Earley,Editing in progress,All,CLI,,,Cortex Code: 201 Building Data Agent,JamesChaEarly_headshot.jpg,https://f.io/MOQ_vBvu,,AI Agents That Scale,Ship AI Agents Fast with Cortex Code CLI,"Vibe-coded agents can look impressive, but they often become brittle when exposed to real enterprise data.
+Building Cortex Data Agents,James Cha-Earley,Published,All,CLI,,,Cortex Code: 201 Building Data Agent,JamesChaEarly_headshot.jpg,https://f.io/MOQ_vBvu,,AI Agents That Scale,Ship AI Agents Fast with Cortex Code CLI,"Vibe-coded agents can look impressive, but they often become brittle when exposed to real enterprise data.
 
 In this walkthrough, we use Cortex Code CLI to build a Cortex Agent powered directly by governed Snowflake data. We combine structured metrics, unstructured search, routing logic, and guardrails, then deploy to Snowflake Intelligence.",
 Building Incremental Pipelines with Dynamic Tables (formerly convert streams/tasks to DTs),PD Dutta / Vino Duraisamy,Scripting,DE,CLI,,,,,,,,,,
