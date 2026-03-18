@@ -1710,37 +1710,35 @@ def filter_events(events: list[dict], config: dict | None = None) -> list[dict]:
             label_visibility="collapsed",
         )
 
-    with st.expander("Filters", expanded=False):
-        # --- Saved views (inside filters) ---
-        saved_views = get_saved_views()
-        view_names = [v["name"] for v in saved_views]
-        if view_names:
+    # --- Sidebar: Saved views ---
+    saved_views = get_saved_views()
+    view_names = [v["name"] for v in saved_views]
+    if view_names:
+        with st.sidebar.expander("Saved Views", expanded=False):
             sv_options = ["(none)"] + view_names
             if "saved_view_picker" in st.session_state:
                 if st.session_state["saved_view_picker"] not in sv_options:
                     del st.session_state["saved_view_picker"]
-            sv_left, sv_right = st.columns([3, 1])
-            with sv_left:
-                selected_view_name = st.selectbox(
-                    "Saved Views",
-                    options=sv_options,
-                    key="saved_view_picker",
-                    help="Load a previously saved combination of filters.",
-                )
-            with sv_right:
-                st.markdown("<div style='height:28px'></div>", unsafe_allow_html=True)
-                if selected_view_name != "(none)":
-                    col_load, col_del = st.columns(2)
-                    with col_load:
-                        if st.button("Load", key="load_saved_view", use_container_width=True):
-                            match = next((v for v in saved_views if v["name"] == selected_view_name), None)
-                            if match:
-                                _apply_saved_view(match)
-                    with col_del:
-                        if st.button("Delete", key="delete_saved_view", type="secondary", use_container_width=True):
-                            delete_view(selected_view_name)
-                            st.rerun()
+            selected_view_name = st.selectbox(
+                "Saved Views",
+                options=sv_options,
+                key="saved_view_picker",
+                help="Load a previously saved combination of filters.",
+                label_visibility="collapsed",
+            )
+            if selected_view_name != "(none)":
+                col_load, col_del = st.columns(2)
+                with col_load:
+                    if st.button("Load", key="load_saved_view", use_container_width=True):
+                        match = next((v for v in saved_views if v["name"] == selected_view_name), None)
+                        if match:
+                            _apply_saved_view(match)
+                with col_del:
+                    if st.button("Delete", key="delete_saved_view", type="secondary", use_container_width=True):
+                        delete_view(selected_view_name)
+                        st.rerun()
 
+    with st.expander("Filters", expanded=False):
         filter_cols = st.columns([2, 2, 1])
 
         # --- Keyword search (searches all text) ---
