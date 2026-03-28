@@ -182,3 +182,7 @@ Date,Time Published,Title,Author,Submission Date,Status,Persona,WG
 ,,How to Install and Use Cortex Code in Snowflake,Pierre-Mickaël Chancrin,2026-03-26,In Review,,
 ,,From Definition to Insight: How Omni Brings Snowflake Semantic Views to Life,Mayur Mahadeshwar,2026-03-26,In Review,,
 ,,Snowflake Terraform Without the Terror: From Manual Ops to IaC Confidence,Sahil Bhange,2026-03-26,In Review,,
+,,Snowflake AI SQL User Guide: AI_CLASSIFY,Douglas Day,2026-03-28,In Review,,
+,,Snowflake AI SQL User Guide: AI_REDACT,Douglas Day,2026-03-28,In Review,,
+,,Snowflake AI SQL User Guide: AI_SENTIMENT,Douglas Day,2026-03-28,In Review,,
+,,Snowflake AI SQL User Guide: AI_TRANSLATE,Douglas Day,2026-03-28,In Review,,
