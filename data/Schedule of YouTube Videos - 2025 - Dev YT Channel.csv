@@ -1,0 +1,298 @@
+d,YouTube Publishing Date,,Time of Publishing (PST),Wrike Request Name,Social Request Submitted?,Producer,Playlist Designated?,MP4,THUMB,NOTES,LENGTH OF VIDEO,,YT Link,Thumbnail Title,YouTube Title,YouTube Description,Link to Thumbnail,Link to Video Transcript,Link to Social Cut MP4,Link to Social Cut on LI,Link to Social Cut on X,,Summit (The shorts in this tally are  duplicated in the Shorts column),Demos,Shorts,Professional Services,Behind the Cape,Solutions Center (also marked as Demo),User Groups,Individual Videos, Events,BUILD/Builder Bytes,Customer,AI Builders,Podcast
+WEEK 6 ,2/02 - 2/06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TRUE,Mon,2/2/2026,,Behind The Cape - Snowflake Apache Iceberg  and Polaris - Saurabh Kumar,,Bobby,,  Behind the Cape - Apache Iceberg and Polaris Final.mp4,https://www.wrike.com/open.htm?id=4359850229,,30,11,https://youtu.be/glDWNpHX8g4,OPEN CATALOG + ICEBERG,Behind The Cape - Snowflake Apache Iceberg  and Polaris,"In this episode of Behind the Cape, Data Superhero Keith Belanger hosts fellow Data Superhero Saurabh Kumar as he breaks down how Snowflake, Apache Iceberg, and Apache Polaris are coming together to redefine what a modern, interoperable lakehouse really looks like.
+
+They chat through why open table formats and open catalogs matter more than ever, how Snowflake integrates with Iceberg and Polaris to support cross-cloud interoperability, and how teams can maintain vendor neutrality without sacrificing enterprise-grade performance, security, or governance.",,,,,,,,,,,,,,,,,,,
+TRUE,Mon,2/2/2026,,Snowflake Postgres 2 minute demo,,Elani,,26-PRG - Snowflake Postgres demo_020226_MP_v6.mp4,https://files.wrike.com/1989536/675754084,,2,29,https://youtu.be/HhzpDM36Pzg,POSTGRES ON SNOWFLAKE!?,Snowflake Postgres In 2 Minutes: Fully Managed Postgres On Snowflake,"Snowflake Postgres brings the world’s most popular open source database onto the Snowflake platform in a fully managed way. See how it unifies transactional and analytical workloads, and how developers can get started in minutes directly from Snowsight.
+The demo walks through provisioning an instance, connecting with standard Postgres tools, and using familiar features like extensions and permissions. You also learn how Snowflake Postgres simplifies operations with built in insights for performance, storage, and long running queries. Find out more: https://www.snowflake.com/postgres ",,,,,,,,,,,,,,,,,,,
+TRUE,Tues,2/3/2026,,DuckDB querying Snowflake-managed Apache Iceberg via Horizon (Iceberg REST) Catalog,,Elani,, 26-PRG - DuckDBQuerying_012125_AB_v2.mp4,https://files.wrike.com/1989536/674725516,,4,51,https://youtu.be/vpbUbh4KRwo,ICEBERG WITH DUCKDB,Query Snowflake Managed Iceberg Tables With DuckDB,"This demo shows how to query Snowflake managed Apache Iceberg tables using DuckDB through the Snowflake Horizon Iceberg REST Catalog. 
+
+What you'll learn:
+• Set up Snowflake's Horizon Catalog for external engine access
+• Configure DuckDB with PAT (Programmatic Access Token) authentication
+• Query Iceberg tables from DuckDB with zero data movement
+• Handle RBAC and common troubleshooting scenarios
+
+Resources: https://github.com/kameshsampath/hirc-duckdb-demo",,,,,,,,,,,,,,,,,,,
+TRUE,Wed,2/5/2026,,Online ML demo,,Sonia,, Online ML Demo_3.mp4,https://files.wrike.com/1989536/675871734,,11,44,https://youtu.be/jnjQaYTNq6k,REAL-TIME FRAUD ML,Build and Serve Real-Time Fraud Detection Models in Snowflake ML,"Moving ML from experimentation to production shouldn't require rebuilding from scratch or navigating lengthy development cycles. In this video, learn how to build, test, and deploy online ML models directly from Snowflake using an agentic approach to generate production-ready pipelines from simple natural language prompts.",,,,,,,,,,,,,,,,,,,
+TRUE,Wed,2/4/2026,,SOCIAL: Anahita CoCo Social Video,,Elani,, 26-PRG - Anahita CoCo Social Video_012926_MP_v5.mp4,n/a,,1,13,https://youtube.com/shorts/XzPw-BfPkGw,,,,,,,,,,,,,,,,,,,,,,
+TRUE,Thurs,2/5/2026,,Snowflake Intelligence + Domo: Marketing Mix Modeling Integration,,Bobby,, 26-PRG - Snowflake Intelligence + Domo - Marketing Mix Modeling Integration_012726.mp4,https://files.wrike.com/1989536/675738167,,15,28,https://youtu.be/9p2jYKR13QY,CONVERSATIONAL MMM WITH AI,Conversational Marketing Mix Modeling With Snowflake Intelligence,"Andreina Toledo, Partner Solutions Consultant at Domo, demonstrates how to build conversational AI for Marketing Mix Modeling using Domo and Snowflake Intelligence.
+
+Marketing teams are constantly asked which channels truly drive results. Traditional platform metrics show clicks and conversions but cannot separate correlation from causation or measure true incremental impact. Domo MMM addresses this gap using Bayesian statistical modeling to analyze historical marketing spend alongside revenue, accounting for seasonality, carryover effects, and diminishing returns to deliver confidence-based ROI insights.
+
+What sets Domo MMM apart is how teams interact with these insights. By integrating with Snowflake Intelligence, Domo adds a conversational layer on top of MMM results. Marketers can ask natural language questions like which channels to prioritize or why spend should shift and receive clear, actionable answers grounded directly in the underlying analysis.
+
+
+Learn More: https://www.snowflake.com/en/developers/guides/domo-mmm-guide/",,,,,,,,,,,,,,,,,,,
+TRUE,Fri,2/6/2026,,Keyless Data Engineering: AWS Lambda & Snowflake WIDF Explained,,Elani,,26-PRG - Keyless Data Engineering: AWS Lambda,https://files.wrike.com/1989536/675730159,,,,https://youtu.be/gAVPzo0VJZ0,KEYLESS DATA WITH AWS LAMBDA,Keyless Data Engineering With Snowflake And AWS Lambda,"Learn how to build a secure, serverless data pipeline using Snowpark Python, AWS Lambda, and Snowflake Workload Identity Federation. 
+
+You will see how an S3 event triggers Lambda, how temporary credentials are exchanged using identity federation, and how data is written securely into Snowflake. The walkthrough covers deployment, trust configuration, and validation, ending with Snowflake Dynamic Tables automatically refreshing as new data arrives. This pattern combines strong security with serverless speed for modern data engineering workflows.
+
+👉 Get the demo code and documentation:
+https://github.com/kameshsampath/snowpark-widf-lambda-loader-demo",,,,,,,,,,,,,,,,,,,
+WEEK 7 ,2/09 - 2/13,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Tues,2/10/2026,,How to Integrate Akave Cloud with Snowflake,,Bobby,, 26 - PRG - How to Integrate Akave Cloud with Snowflake.mp4,https://files.wrike.com/1989536/675870896,,,,https://youtu.be/OexaY_Qz5to,AKAVE CLOUD INTEGRATION,How to Integrate Akave Cloud with Snowflake,"Bart Hofkin, Systems Architect at Akave, walks through how to integrate Akave Cloud with Snowflake.
+
+In this demo, you’ll see how to create an Akave bucket, configure it as an external stage in Snowflake, and read and write data between Snowflake and Akave using standard Snowflake workflows.
+
+This video is a step-by-step walkthrough focused on setup and usage, showing how S3-compatible object storage can be used directly within Snowflake.
+
+For more details and written instructions, refer to the Akave + Snowflake integration guide:
+https://akave.com/blog/akave-cloud-the-first-decentralized-object-storage-integrated-with-snowflake",,,,,,,,,,,,,,,,,,,
+WEEK 8 ,2/16 - 2/20,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Fri,2/20/2026,,BUILD London Cortex Code Breakout Session,,Bobby,Coretex Code,08-Released - BUILD London CortexCode,https://snowflake.enterprise.slack.com/files/U09J7RPTR7A/F0AGWTVBV4G/build25-dev_channel-center_title.png,,,,https://youtu.be/ZUJl6sUGnFk,Cortex Code: Agents for Snowflake Development,Cortex Code: The Purpose Built Agent for Snowflake Development,"The process of building production-ready applications can have a lot of friction points - wrestling with connections, debugging permissions, and generating repetitive, complex configurations. If you spend more time managing the platform than writing business logic, your productivity is suffering. We believe your terminal should be a launchpad for innovation, not a place to solve administrative puzzles.
+
+This is the core mission of Cortex Code. This session introduces the new agentic CLI that puts the collective expertise of Snowflake directly into your command line. Through a rapid-fire live demonstration, we’ll show you how to use simple, natural language commands to instantly scaffold entire Snowpark projects, generate secure SQL, and orchestrate complex multi-step deployments. Discover how Cortex Code becomes your resident expert, allowing you to focus purely on value creation.",,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Fri,2/20/2026,,Cortex Code Overview ,,Elani,Cortex Code, 26_PRG - CC_101__Overview_021626_AB_v5.mp4,https://www.wrike.com/open.htm?id=4379417935,,,,https://youtu.be/lftWaAcG2nE,"All your data, one AI Coding agent","Cortex Code CLI Expands to Support Any data, Anywhere","Learn what is new in Cortex Code CLI and how it accelerates your enterprise data lifecycle inside Snowflake. 
+
+Introducing dbt and Apache Airflow support, expanded model choice across Claude Opus 4.6, Sonnet 4.6, and GPT 5.2, new enterprise-grade governance controls, and a self-serve subscription option. See how Cortex Code CLI helps you ship workflows faster, integrate data systems, and build with confidence using natural language.",,,,,,FALSE,,,,,,,,,,,,,
+WEEK 9,2/23 - 2/27,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Mon,2/23/2026,8:00 AM,SOCIAL - Cortext Code Overview,,Elani,Cortex Code, 26_PRG - CC_Social_101_Overview_022026_AB_v6.mp4,https://www.wrike.com/open.htm?id=4379417935,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Mon,2/23/2026,,Cortex Code Overview (101) - Basics - Cortex Code,,Elani,Cortex Code,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Tues,2/24/2026,11:30 AM,Accelerate FY27 | Teaser Trailer,Elani,Elani,,08-Released - Accelerate26_Trailer,https://www.wrike.com/open.htm?id=4367247238,,,,https://youtu.be/04AkmzB0QP0,ACCELERATE 2026,Accelerate 2026: Industry AI Transformation With Snowflake,"Learn how AI is transforming six major industries and how to build a practical, industry-ready AI strategy with Snowflake.
+
+Registration is now open.
+👉 https://www.snowflake.com/accelerate
+
+Accelerate, Snowflake’s flagship virtual series, returns April 21 with two weeks of deep industry insight across advertising, media and entertainment, retail and consumer goods, public sector, financial services, manufacturing, and healthcare and life sciences.
+
+Hear from leaders across the AI and data ecosystem, including SAP and Accenture, and explore real-world use cases, Enterprise Super Intelligence architectures, semantic views, and connected data strategies in the AI Data Cloud.",,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Tues,2/24/2026,12:30, Openflow Oracle CDC,,Bobby,,08-Released - Project Title,https://www.wrike.com/open.htm?id=4382441783,,,,https://youtu.be/nLGnb1VoJuc,Near Real-Time Oracle CDC to Snowflake,How-to Set Up Near Real-Time Oracle CDC to Snowflake using Openflow,Learn how to leverage Snowflake Openflow to establish near real-time Change Data Capture (CDC) replication from your Oracle database directly to Snowflake. This video showcases how Openflow ensures your critical transactional data from Oracle is unified and always up-to-date in Snowflake.,,,,,,,,,,,,,,,,,,,
+TRUE,Tues,2/24/2026,,SOCIAL: DBT101,,Elani,Cortex Code, 26-PRG - CC_Social_101_Dbt_022326_V4.mp4,,,,,https://youtube.com/shorts/SXKnsd9j6dY,,,,,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Wed,2/24/2026,1:30,Airflow - Debugging a failed DAG run,,Elani,Cortex Code,4_Airflow_Released,https://www.wrike.com/open.htm?id=4379708564,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Thurs,2/25/2026,,SOCIAL: Airflow,,Elani,Cortex Code, 26-PRG - CC_Social_Airflow_022626_AB_v3.mp4,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Thurs,2/25/2026,,Optimizing dbt for speed and cost (201) - Cortex Code,,Elani,Cortex Code,08-Released - Coco_Customer_ShelterIns,https://www.wrike.com/open.htm?id=4379690455,,,,,Optimize dbt Projects for Speed,Optimize dbt Projects on Snowflake for Speed With Cortex Code,"dbt projects on Snowflake are easy to build, but keeping them fast and cost-efficient is another challenge. As source tables grow and models become more complex, runtimes increase and performance issues get harder to pinpoint. 
+
+In this demo, you'll see how to direct Cortex Code CLI to analyze your project’s run_results.json, identify the slowest models, flag unused ones, and find suggestions for specific optimizations you can apply immediately, all from a single prompt in your terminal.",,,,,,FALSE,,,,,,,,,,,,,
+WEEK 10,3/02 - 3/06,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Tues,3/2/2026,, Demo videos for newly launched enterprise-grade sharing,,Bobby,, 26-PRG - Enterprise-grade sharing_030326_MP_v1.mp4,https://files.wrike.com/1989536/683191137,,,,https://youtu.be/H-l8IgbIlqE,Data Product Resiliency ,Enterprise-grade Sharing Demo Videos - Part 1: Listing BCDR,"Explore how Snowflake Listing BCDR, helps customer's to streamlines data product protection with automated failover and seamless recovery workflows. See firsthand how this enterprise-grade sharing capability minimize downtime and keep your critical data product resilient against any disruption.",,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Tues,3/2/2026,,Demo video for Resharing GA,,Bobby,, 26-PRG -Resharing GA_030326_MP_v1.mp4,https://www.wrike.com/open.htm?id=4384622738,,,,https://youtu.be/EJsJ2qNK41s,Zero-ETL Data Enrichment,Data Product Enrichment With Zero-ETL Transformations: Resharing GA,"Resharing, a new Snowflake AI & Data sharing feature that builds on our Zero-ETL, cross-cloud and cross-region capabilities, allows customers to reuse shared data products without having to manage local copies (materialize) and apply light-weight transformations on the fly. 
+
+Resharing can help customers simplify their sharing architecture by providing simple, light-weight transformation for shared data product enrichment, without having to move, extract or load the data.",,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Tues,3/3/2026,,Cortex Code - dbt core,,Elani,Cortex Code,,,,,,https://youtu.be/airYxlLRTBE,FASTER dbt CORE BUILDS,Make Your dbt Core Builds Faster with Cortex Code,"When dbt builds fail or pipelines slow down, Cortex Code CLI accelerates troubleshooting by bringing Snowflake expertise directly to your terminal. By reading your project files—including models, tests, and lineage—without requiring a manual compile, it can instantly identify bottlenecks, perform blast radius analysis, and audit test coverage. 
+
+This data-native AI agent combines dbt project structure with Snowflake query history to provide a prioritized improvement plan, allowing you to trace dependencies and refactor code from a single prompt with total confidence.",,,,,,,,,,,,,,,,,,,
+TRUE,Thurs,,,SOCIAL: Ddbt 201,,Elani,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TRUE,Fri,3/4/2026,x,Cortex Code - Building Agents Demo,,Elani,Cortex Code, 26_PRG - CC_201_BuildingDataAgents_030426_AB_v5.mp4,,,,,https://youtu.be/wKvVkHO0fOw,AI Agents That Scale,Ship AI Agents Fast with Cortex Code CLI,"Vibe-coded agents can look impressive, but they often become brittle when exposed to real enterprise data.
+
+In this walkthrough, we use Cortex Code CLI to build a Cortex Agent powered directly by governed Snowflake data. We combine structured metrics, unstructured search, routing logic, and guardrails, then deploy to Snowflake Intelligence.",,,,,,FALSE,,,,,,,,,,,,,
+WEEK 11,3/09 - 3/13,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Tues,3/10/2026,,SOCIAL: Cortex Code - Building Agents Demo,,Elani,Cortex Code, 26_PRG - CC_Social_201_BuildingDataAgents_030426_AB_v2.mp4,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Wed,3/11/2026,,SOCIAL: Cortex Code - dbt core,,Elani,Cortex Code,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TRUE,Wed,3/11/2026,,Cortex Code - Data Exploration Demo,,Elani,Cortex Code,,,,,,,From Data Chaos to Clarity,Rapid Data Exploration with Cortex Code CLI,"Data exploration usually means inspecting schemas, profiling columns, and writing exploratory code just to understand what’s there. In this demo, we use Cortex Code CLI to handle that work directly from the terminal on real Snowflake data.
+
+Anything you want to understand in your data, just ask Cortex Code.",,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Thurs,3/12/2026,,How To Build A Churn Insights Agent Using Snowflake Intelligence,,Sonia,professional svcs,26-PRG - How To Build A Churn Insights Agent Using Snowflake Intelligence_WR_03092026.mp4,https://www.wrike.com/open.htm?id=4364867447,,,,https://youtu.be/ELf1LpzgxTc,REDUCE CUSTOMER CHURN,Build A Churn Insights Agent With Snowflake Intelligence,"In this video, we'll show you how to transform raw machine learning models into actionable AI insights. Using Snowflake Intelligence, you'll learn to build an AI Agent that:
+
+Leverages the Snowflake Model Registry to provide clear, transparent model explainability.
+Constructs a semantic layer of intelligence directly over your ML models.
+Bridges the gap for non-technical stakeholders to interact with complex data.
+
+
+Link to code: https://github.com/sfc-gh-sujoshi/sf-samples/tree/main/samples/churn_intelligence_agent
+
+Links to relevant documentation:
+
+https://www.snowflake.com/en/developers/guides/getting-started-with-snowflake-intelligence/
+https://docs.snowflake.com/en/developer-guide/snowflake-ml/model-registry/overview
+
+
+Link to background music used throughout this video:
+ https://www.fesliyanstudios.com/royalty-free-music/download/smooth-presentation/382",,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Thurs,3/12/2026,,Horizon Catalog overview,,Bobby,, 26-PRG - SCQ4_HorizonCatalogOverview_031026_AB.mp4,https://www.wrike.com/open.htm?id=4402902969,,,,https://youtu.be/S66kaS5uoVc,"HORIZON CATALOG
+POWERS AI",Snowflake Horizon Catalog: Powering Trusted AI And Open Data,"Learn how Snowflake Horizon Catalog helps you build a data strategy that makes AI safe, trusted, and scalable. Get an overview of interoperability with Apache Iceberg and open standards, discovery with hybrid search, lineage and observability, and semantic enrichment that improves agent accuracy.",,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Fri,3/13/2026,,Bi-directional Interoperability with Horizon Catalog demo,,Bobby,, 26-PRG - SCQ4_Bi-directionalInteroperability_031026_AB.mp4,https://www.wrike.com/open.htm?id=4402897474,,,,https://youtu.be/4ld80bFUBq8,BI-DIRECTIONAL INTEROP DEMO,Bi-Directional Interoperability With Snowflake Horizon Catalog,"Learn how Snowflake Horizon Catalog enables bi-directional interoperability across your open lakehouse architecture.
+
+In this demo, Riccardo Muti shows how to create and manage Apache Iceberg tables in Snowflake, access them from external engines like Spark, and securely read and write data using the Iceberg REST Catalog API. You also see the reverse scenario: federating external catalogs such as AWS Glue into Snowflake for seamless query and write access.",,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Fri,3/13/2026,,Accelerate FY27 | Teaser Trailer,,Jason,, 26-PRG - Accelerate FY27 Teaser_031226_MP_v4.mp4,,,,,https://youtu.be/dm5SsNCmu68,,,,,,,,,FALSE,,,,,,,,,,,,,
+WEEK 12,3/16 - 3/20,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Mon,3/16/2026,,Data and AI Governance with Horizon Catalog,,Bobby,, 26-PRG - SCQ4_DataAndAIGovernance_031026_AB.mp4,https://www.wrike.com/open.htm?id=4402906865,,,,https://youtu.be/42GWL5x3Xpg,HORIZON CATALOG GOVERNANCE,Horizon Catalog: Governing Data For Trusted AI,"Learn how Horizon Catalog detects and protects sensitive data, enforces tag-based masking and automatic tag propagation, and delivers observability for lineage and data quality so AI can run safely on trusted data.
+
+This demo shows practical governance workflows in Snowflake. Creating classification profiles, applying tag-based masking policies, tracing column-level lineage, and using universal search and conversational discovery to find and understand data. ",,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Tues,3/17/2026,,Semantic Views with Horizon Catalog,,Bobby,, 26-PRG - SCQ4_SemanticViews _031026_AB.mp4,https://www.wrike.com/open.htm?id=4402909705,,,,https://youtu.be/6TUckfUdweE,HORIZON CATALOG SEMANTIC VIEWS,Semantic Views In Horizon Catalog,"Learn how to create and use semantic views in Snowflake Horizon Catalog to make data understandable and actionable for both humans and AI. 
+
+This video demonstrates how Cortex Analyst turns business prompts into correct SQL using semantic views, how to enrich metadata with descriptions, relationships, verified queries, and custom metrics, and how to expose agents via MCP so external AI tools can query your semantic models securely. ",,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Tues,3/17/2026,,Analyst Briefing - Snowflake for Work - Cortex Code,,Bobby,Unlisted, 26-PRG - AnalystBriefing_SnowWorkCoCo_031726_AB_v6.mp4,,,,,https://youtu.be/Et-bu5Fbphg,,Project SnowWork - Work at the Speed of AI,Introducing Project SnowWork! An autonomous enterprise AI platform that helps business users get work done faster. ,,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Wed,3/18/2026,,Apache Polaris (incubating) 1.4 Release Video,,Bobby,Unlisted,DEV_ApachePolaris_01_04_031326_VC_v4.mp4,https://www.wrike.com/open.htm?id=4390848467,,,,https://youtu.be/YFPXuYdfO5Q,,An Overview Of The Features of Apache Polaris 1.4,"#apachepolaris #iceberg #apacheiceberg
+
+Apache Polaris 1.4 is here! Follow along as Danica Fine (Sr. Manager, OSS Developer Relations, Snowflake), shares the features that users have to look forward to in this latest version.
+
+TIMESTAMPS
+0:00 - Intro
+
+0:19 - Polaris graduation
+0:54 - Storage-scoped AWS credentials
+1:09 - Enhanced KMS support
+1:27 - ADLS hierarchical flag
+1:41 - AWS STS session tag customization
+1:51 - Principal names in sub-scoped credentials
+2:05 - Persist Iceberg metrics
+
+2:25 - JSON schema file in Helm charts
+2:45 - UV for Python package management
+
+2:58 - Updated rate-limiter
+3:09 - PolarisConfigurationStore deprecation
+3:16 - gcpServiceAccount configuration is active
+
+3:31 - Close
+
+RESOURCES
+► Peruse the Apache Polaris 1.4 features on Github: https://github.com/apache/polaris/tree/apache-polaris-1.4
+► Check out the Apache Polaris roadmap: https://github.com/apache/polaris/discussions/1028
+► Download Apache Polaris : https://polaris.apache.org/downloads/
+
+#apachepolaris #iceberg #apacheiceberg",,,,,,,,,,,,,,,,,,,
+TRUE,Fri,3/20/2026,,How to Connect Snowflake to Excel ,,Bobby,,,https://files.wrike.com/1989536/699092981,,,,https://youtu.be/YEHnYFqOFhY,Connect Live Snowflake to Excel,How to Connect Snowflake to Excel,"Frank Ferris, Sr Product Specialist at Coefficient, show you how to automatically connect Snowflake with Excel using Coefficient’s one-click data connector. Watch the video to see a quick demo on how you can increase productivity in your workflows with our Snowflake integration for Excel.
+
+See how you can get more out of your Snowflake data in Excel: https://coefficient.io/snowflake/connect-snowflake-google-sheets",,,,,,FALSE,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+WEEK 13,3/23 - 3/27,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Mon,3/23/2026,,BUILD Snapshot: Smarter Pipelines,,Elani,BUILD, 26-PRG -The BUILD Snapshot- Smarter Pipelines_032026_AB_v1.mp4,https://drive.google.com/file/d/1-cdZov0K0F0azO2RzpbN4m4HDVr0nPne/view?usp=sharing,,,,https://youtu.be/_YxKFnBoQ9Y,,"Smarter Data Pipelines: AI Ingestion, Apache Iceberg & Git Workflows in Snowflake","Modern data pipelines need to do more than move data — they need to understand, enrich, and serve it through open, interoperable layers.
+
+Join Snowflake's James Stone and Yoav Ostrinsky as they show you how to:
+- Build AI-powered ingestion pipelines
+- Use native Apache Iceberg interoperability
+- Implement Git-native development workflows
+- Connect unstructured and structured data seamlessly
+- Apply intelligence with built-in AI Functions
+- Publish results through open standards any engine can consume
+
+Fast, intelligent, interoperable pipelines — built end-to-end in Snowflake.
+
+#Snowflake #DataPipelines #ApacheIceberg #DataEngineering ",,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Wed,3/25/2026,8:00 AM,Cortex - ML Feature Importance (Long),,Elani,Cortex Code,08_Released_07_Feature Engineering_long,https://files.wrike.com/1989536/705344136,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Wed,3/25/2026,7:00 AM,SOCIAL: Cortex - What is Agentic ML Overview,,Elani,Cortex Code, 26_PRG_MLCoCo_6_WhatisAgenticML_SHORT_032426_v3_VC.mp4,,,,,https://youtube.com/shorts/bLKDFv2A3PA,,Agentic ML in Snowflake,"Data science teams can now automate development of production-ready ML pipelines from simple natural language prompts on the same platform as the governed data. 
+
+Learn more about agentic workflows in Snowflake ML: https://www.snowflake.com/en/product/features/end-to-end-ml-workflows/",,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Thurs,3/26/2026,6:00 AM,Cortex CoCo Day - March 26 MGFX Explainer,,Elani,Cortex Code, Coco_Day_Mar_26_MG_Video-AH-v04_CAPTIONS_vC.mp4,,,,,https://youtu.be/E17bqBxIFbs,,,,,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Fri,3/26/2026,8:00 AM,Cortex Demo - AI Function,,Elani,Cortex Code,9_AI Functions,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Fri,3/26/2026,8:00 AM,SOCIAL: Cortex - AI Function,,Elani,Cortex Code,9_AI Functions,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+WEEK 14,3/30 - 4/3,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+TRUE,Mon,3/30/2026,8:00 AM,5_The BUILD Snapshot: Better Tools & Open Source,,,BUILD, 26-PRG-5_BUILD Snapshot- Better Tools_PG_v01.mp4,,,,,https://youtu.be/z9XKgZPIN5Q,,"Snowflake Developer Tools: Terraform, Snow CLI, Notebooks, Streamlit & AI Coding (2026)","What's new in the Snowflake developer stack? What should you be adding to your toolbox this year?
+
+Join Snowflake's Matt Nunn for a whistlestop tour of the tools that extend your reach:
+- Infrastructure-as-code with Terraform
+- The powerful Snow CLI
+- Next-gen Notebooks
+- Streamlit for data apps
+- AI-assisted coding workflows
+
+Whether you're managing Snowflake objects, building data apps, or accelerating with AI, this session shows how each tool fits into a modern development workflow.
+
+#Snowflake #DeveloperTools #Terraform #SnowCLI #Streamlit",,,,,,FALSE,,,,,,,,,,,,,
+FALSE,Mon,3/30/2026,8:00 AM,Agent Teams - Cortex Code,,Elani,Cortex Code,10_Agent Teams,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+FALSE,Mon,3/30/2026,8:00 AM,SOCIAL: Cortex - Agent Teams,,Elani,Cortex Code,10_Agent Teams,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+FALSE,Tues,3/31/2026,,What is Snowflake?,,Elani,,,,,,,,,What is Snowflake? Developer Demo (2026),"Snowflake is a unified, fully-managed, multi-cloud data and AI platform that lets you build data pipelines, train ML models, and deploy AI-powered applications, and more, all without managing infrastructure. In this complete walkthrough, we'll show you how developers, data engineers, and ML teams use Snowflake to go from raw data to production-ready insights.
+
+Whether you're building your first data pipeline or scaling enterprise ML workloads, this video covers everything you need to get started.
+
+🔗 Start your free trial: https://signup.snowflake.com/developers
+
+⏱️ TIMESTAMPS
+0:00 - Introduction
+0:35 - Data Engineering with Snowflake – Ingestion, Transformation, Delivery
+2:23 - AI with Snowflake: Snowflake Cortex, Snowflake Intelligence, AI Agents
+4:19 - Building Applications with Snowflake: Streamlit in Snowflake, Snowflake Native Apps, Snowflake Postgres
+5:32 - MLOps & Model Deployment with Snowflake - Feature Engineering, ML Jobs, Snowflake Notebooks, Model Registry
+6:48 - Open Source at Snowflake - Apache™️ Iceberg, Apache™️ Polaris, Streamlit, Terraform
+8:41 - Snowflake Platform Architecture & Security
+10:22 - Start building with Snowflake
+
+📌 WHAT'S NEW FOR 2026
+• Snowflake Openflow for unified ingestion
+• Snowflake Dynamic Tables for end-to-end incremental pipelines
+• Snowflake Cortex (Cortex Analyst, Cortex Search, AI functions)
+• Snowflake Intelligence for agentic workflows
+• Snowflake Postgres for transactional workloads
+• Apache™️ Iceberg & Apache™️ Polaris integration
+• MLOps with Snowflake – ML Jobs with distributed GPU compute
+
+🔧 TOPICS COVERED
+Data Engineering Pipelines | AI & ML | Cortex | Streamlit | Native Apps | MLOps | Apache™️  Iceberg | Multi-Cloud | Security & Governance
+
+#Snowflake #DataEngineering #WhatIsSnowflake #DataPlatform #CloudData #AI #MachineLearning #Cortex #Streamlit #ApacheIceberg
+
+———
+👩🏽‍💻 Snowflake Developer Portal: https://www.snowflake.com/en/developers/
+📘 Docs: https://docs.snowflake.com
+💬 Community: https://community.snowflake.com
+",,,,,,FALSE,,,,,,,,,,,,,
+WEEK 15,4/06 - 4/10,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+FALSE,Mon,4/6/2026,7:00 AM,BUILD Snapshot: Agentic Applications,,Elani,BUILD, 26-PRG - 3_The BUILD Snapshot- Agentic Applications_032426_AB_v2.mp4,BUILD25-Dev_Channel-Left_Title.png,,,,,,Building Agentic AI Applications on Snowflake: From Query to MCP | BUILD 2025,"What do data agents really mean for your applications — and how do you build production-ready ones?
+
+Join Snowflake's Grace Adamson and Teresa Nascimento as they cover the full journey from query to MCP:
+- What agentic applications are and why they matter
+- Ensuring accurate retrieval and context for AI agents
+- Implementing the right access controls
+- Building for interoperability and production readiness
+
+Learn more here:
+- https://www.snowflake.com/en/developers/guides/oss-deploy-snowflake-intelligence-routing-agent/?utm_source=youtube&utm_content=buildlondon
+
+#Snowflake #AgenticAI #MCP #AIAgents #DataCloud",,,,,,FALSE,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+WEEK 16,4/13 - 4/17,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+FALSE,Mon,4/13/2026,,4_The BUILD Snapshot: Better Analytics,,,BUILD,,AIANALYTICS.png,,,,,,"Supercharge Analytics with Snowflake AI Functions, Document Intelligence & Semantic Modeling","Enterprises generate massive volumes of raw signals that models can't use without structure, context, and access to fresh transactional data.
+
+Join Snowflake's Ravi Bhatta and Fawad Qureshi as they show developers how to:
+- Transform raw data into intelligent products
+- Extract meaning from unstructured files with Document Intelligence
+- Combine AI Functions with semantic modeling
+- Unify analytical and transactional data
+- Expose clean, consistent interfaces for apps and AI agents
+
+Turn your data into products that applications and agents can consume in real time.
+
+#Snowflake #AIAnalytics #SemanticModeling #DocumentAI #DataProducts",,,,,,FALSE,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+WEEK 17,4/20 - 4/24,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+FALSE,Mon,4/20/2026,,BUILD_Fast-Track Your Way to Agentic AI,,Elani,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+WEEK 18,4/27 - 5/01,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+FALSE,Mon,4/27/2026,,BUILD AI Beyond the Chatbot,,Elani,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+,NOT YET SCHEDULED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,LONDON BUILD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FALSE,,,,dbt Development in a Single Prompt (101) - Cortex Code,,Elani,,,https://www.wrike.com/open.htm?id=4379495846,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FALSE,,,,"""What's New"" Videos - Cortex Code",,,,,https://www.wrike.com/open.htm?id=4379707278,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+FALSE,,,,dbt OSS Cloud,,,,,https://www.wrike.com/open.htm?id=4379708887,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+FALSE,,,,dbt core,,,,,https://www.wrike.com/open.htm?id=4382104004,,,,,,,,,,,,,FALSE,,,,,,,,,,,,,
+FALSE,Thurs,2/19/2026,,Cortex Agent from Demo to Production,,Bobby,,,https://files.wrike.com/1989536/679563461,,,,,"SNOWFLAKE CORTEX
+DEMO TO PRODUCTION",9 Things You Need to Do to Take Your Cortex Agent from Demo to Production,"Learn the nine essential best practices for taking a Snowflake Cortex Agent from demo to production. The session walks through what changes when real users interact with your agent and how to move beyond proofs of concept to trusted, production-ready AI applications. 
+
+Learn how to improve reliability, governance, security, and performance while operationalizing Cortex Agents in the AI Data Cloud. This video helps data and AI teams avoid common pitfalls and build agents that scale with confidence.
+
+Best Practices Guide:
+https://www.snowflake.com/en/developers/guides/best-practices-to-building-cortex-agents/",,,,,,,,,,,,,,,,,,,
+FALSE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,THE VIDEOS BELOW WERE NEVER USED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Fri,2/6/2026,,SOCIAL: BUILD OpenAI,,Elani,,,,,,,,,,"Moving ML from experimentation to production shouldn't require rebuilding from scratch or navigating lengthy development cycles. In this video, Sumit Kumar, Staff Product Manager, shows you how to build, test, deploy and run realtime Inference on ML models directly from Snowflake using an agentic approach to generate production-ready pipelines from simple natural language prompts.
+
+Learn more about Snowflake ML at https://www.snowflake.com/en/product/features/end-to-end-ml-workflows/
+Try a ML quickstart today at https://docs.snowflake.com/en/developer-guide/snowflake-ml/quickstart
+New Real Time Docs: https://docs.snowflake.com/en/developer-guide/snowflake-ml/inference/real-time-inference-rest-api (edited)",,,,,,,,,,,,,,,,,,,
+,,,,Data Science with Snowpark and Hex,,,,,,thumb requested; (THIS HAS BEEN PLACED ON HOLD,,,,"Data Science with Snowpark and Hex
+",A Demonstration Of How To Use Hex To Get Started With Snowpark For Python,"Ariel Harnik, Head of Partnerships at Hex, demonstrates how to use Hex to get started with Snowpark for Python, using built-in environments and helper functions to create new Snowpark sessions. You can even natively return SQL queries as Snowpark dataframes. ",,,,,,,,,,,,,,,,,,,
+,,,,Cortex AI for Financial Services,,,,,,MP4; Wrike; draft of thumb is done but may need to revise it to conform to Dev channel branding  (requester is Samual Lee; doc with info is here),,,,AI FOR FINANCIAL SERVICES,Snowflake Cortex AI For Financial Services: Bringing Agentic AI To A Portfolio Management Workflow,"Snowflake's Senior Product Manager Renee Huang demonstrates how to leverage Snowflake Cortex AI for Financial Services, a suite of AI tools designed to help financial institutions build and deploy agentic AI applications. Her demonstration focuses on 3 use cases: 
+
+How to transform and summarize unstructured data from earning transcripts with Cortex AISQL
+How to build a ML model using simple text prompts with Data Science Agent
+How to use natural language to derive insights with Snowflake Intelligence 
+
+For more information, check out this blog post:",Link,,,,,,,,,,,,,,,,,,
+,,,,Hybrid Tables and Unistore demo,,,,,,MP4 review link; ,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,Snowflake Python AP Functions & Capabilities,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,Snowflake Connector for MySQL and PostgreSQL Demo (Public Preview),,,,,,Wrike;,,,,,,,,,,,,,,,,,,,,,,,,,
+,???,???,,NextMV Demo,,,,,,MP4; FrameIO; Wrike; WrikePrep; thumb done ,,,,A Native App For Route Planning,Route Planning is Broken. Here's How to Fix It Instantly with Snowflake And Nextmv,"Is your route planning stuck in the slow lane? Manual processes, spreadsheets, and outdated tools are holding businesses back. Missed deliveries, rising costs, and frustrated teams are the result. In this video, discover how Nextmv Routing, a Snowflake Native App, transforms route planning into a strategic advantage with optimized routes generated in seconds, not days. And it is all done directly within your Snowflake environment. No data movement. No extra infrastructure. Just faster, smarter decisions. In this video, you’ll see: ➡️ Real-world delivery challenges solved ➡️ A live demo of setup and route generation ➡️ How to optimize routes at scale with SQL, stored procedures, and more Tune in to learn how to put your route planning on autopilot.",Link,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,"Apache Polaris (incubating) 1.3 is here! Follow along as Danica Fine (Sr. Manager, OSS Developer Relations, Snowflake), shares the features that users have to look forward to in this latest version. RESOURCES ► Peruse the Apache Polaris (incubating) 1.3 features on Github: https://github.com/apache/polaris/tree/apache-polaris-1.3.0-incubating ► Check out the Apache Polaris (incubating) roadmap: https://github.com/apache/polaris/discussions/1028  ► Download Apache Polaris (incubating): https://polaris.apache.org/downloads/  #apachepolaris #iceberg #apacheiceberg",,,,,,,,,,,,,,,,,,,
