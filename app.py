@@ -1904,14 +1904,28 @@ def render_calendar():
     # Apply filters (includes Saved Views inside the expander)
     events = filter_events(all_events, config)
 
+    # Trim events to a reasonable time window to reduce rendering load
+    cutoff_past = (date.today() - timedelta(days=90)).isoformat()
+    cutoff_future = (date.today() + timedelta(days=365)).isoformat()
+    windowed_events = [
+        e for e in events
+        if cutoff_past <= e.get("start", "")[:10] <= cutoff_future
+    ]
+
     fingerprint = _config_fingerprint(config)
     data_file_paths = tuple(s.get("file_path", "") for s in config.get("sheets", []))
     last_refresh = latest_data_refresh(fingerprint, data_file_paths)
     version_tag = f"  ·  deploy {GIT_HASH}" if GIT_HASH else ""
     st.caption(
-        f"Showing {len(events)} of {len(all_events)} events "
+        f"Showing {len(windowed_events)} of {len(all_events)} events "
         f"from {n_sources} source(s)  ·  data refreshed {last_refresh}{version_tag}"
     )
+
+    if len(windowed_events) < len(events):
+        st.caption(
+            f"_{len(events) - len(windowed_events)} older/future events outside "
+            f"the 3-month to 12-month window are hidden._"
+        )
 
     # --- Sidebar: Save current view ---
     with st.sidebar.expander("Save current view", expanded=False):
@@ -1953,15 +1967,34 @@ def render_calendar():
                 unsafe_allow_html=True,
             )
 
-    # Render calendar inside a fragment so clicking events only reruns this
-    # section, not the entire app (filters, sidebar, config loading, etc.)
+    # Build a lookup dict for full event details (keyed by title+start);
+    # send only slim events to the calendar to reduce serialization overhead.
+    event_detail_lookup: dict[str, dict] = {}
+    slim_events: list[dict] = []
+    for e in windowed_events:
+        key = f"{e.get('title', '')}|{e.get('start', '')}"
+        event_detail_lookup[key] = e.get("extendedProps", {})
+        slim = {
+            "title": e.get("title", ""),
+            "start": e.get("start", ""),
+            "allDay": e.get("allDay", True),
+            "color": e.get("color", ""),
+        }
+        if e.get("end"):
+            slim["end"] = e["end"]
+        # Keep only source name for identification on click
+        slim["extendedProps"] = {"source": e.get("extendedProps", {}).get("source", "")}
+        slim_events.append(slim)
+
+    st.session_state["_event_detail_lookup"] = event_detail_lookup
+
     @st.fragment
     def _calendar_fragment():
         four_week_start = None
         if view == "dayGridFourWeek":
-            today = date.today()
-            days_since_monday = today.weekday()
-            last_monday = today - timedelta(days=days_since_monday + 7)
+            _today = date.today()
+            days_since_monday = _today.weekday()
+            last_monday = _today - timedelta(days=days_since_monday + 7)
             four_week_start = last_monday.isoformat()
 
         calendar_options = {
@@ -1992,11 +2025,19 @@ def render_calendar():
             .fc-toolbar-title { font-size: 1.3em !important; }
         """
 
-        state = calendar(events=events, options=calendar_options, custom_css=custom_css, key=f"main_cal_{view}")
+        state = calendar(
+            events=slim_events,
+            options=calendar_options,
+            custom_css=custom_css,
+            key=f"main_cal_{view}",
+        )
 
         if state and state.get("eventClick"):
             evt = state["eventClick"]["event"]
-            ext = evt.get("extendedProps", {})
+            # Look up full details from the stored lookup
+            lookup_key = f"{evt.get('title', '')}|{evt.get('start', '')}"
+            lookup = st.session_state.get("_event_detail_lookup", {})
+            ext = lookup.get(lookup_key, evt.get("extendedProps", {}))
 
             st.markdown('<div id="event-detail"></div>', unsafe_allow_html=True)
             st.divider()
