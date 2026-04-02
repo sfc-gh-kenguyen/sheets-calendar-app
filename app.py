@@ -1,3 +1,4 @@
+import hashlib
 import json
 import os
 import re
@@ -560,11 +561,33 @@ def rows_to_events(
     return events
 
 
-def build_events(config: dict) -> list[dict]:
-    """Read data from every configured source and return FullCalendar events."""
-    events: list[dict] = []
+def _config_fingerprint(config: dict) -> str:
+    """Return a stable hash of config + data file modification times.
 
-    # --- Individual file sources ---
+    Used as a cache key so events are recomputed when config or data changes,
+    but NOT on every Streamlit rerun (click, filter change, etc.).
+    """
+    parts = [json.dumps(config, sort_keys=True)]
+    for s in config.get("sheets", []):
+        fp = s.get("file_path", "")
+        if fp:
+            p = Path(fp) if Path(fp).is_absolute() else APP_DIR / fp
+            if p.exists():
+                parts.append(f"{fp}:{p.stat().st_mtime}")
+    for wf in config.get("watch_folders", []):
+        folder_path = wf.get("folder_path", "")
+        for fp in discover_files_in_folder(folder_path):
+            parts.append(f"{fp}:{fp.stat().st_mtime}")
+    return hashlib.md5("|".join(parts).encode()).hexdigest()
+
+
+@st.cache_data(show_spinner=False, ttl=300)
+def _build_events_cached(_fingerprint: str, config_json: str) -> tuple[list[dict], list[str]]:
+    """Cached event builder. Returns (events, warnings)."""
+    config = json.loads(config_json)
+    events: list[dict] = []
+    warnings: list[str] = []
+
     for idx, sheet_cfg in enumerate(config.get("sheets", [])):
         file_path = sheet_cfg.get("file_path", "")
         mapping = sheet_cfg.get("mapping", {})
@@ -577,13 +600,12 @@ def build_events(config: dict) -> list[dict]:
         try:
             df = read_file_to_df(file_path, header_row)
         except Exception as e:
-            st.warning(f"Could not load **{sheet_name}**: {e}")
+            warnings.append(f"Could not load **{sheet_name}**: {e}")
             continue
 
         source_url = sheet_cfg.get("source_url", "")
         events.extend(rows_to_events(df, mapping, sheet_name, sheet_color, source_url))
 
-    # --- Watch-folder sources ---
     for wf in config.get("watch_folders", []):
         folder_path = wf.get("folder_path", "")
         mapping = wf.get("mapping", {})
@@ -600,11 +622,21 @@ def build_events(config: dict) -> list[dict]:
             try:
                 df = read_file_to_df(fp, wf_header_row)
             except Exception as e:
-                st.warning(f"Could not load **{fp.name}** from {wf_name}: {e}")
+                warnings.append(f"Could not load **{fp.name}** from {wf_name}: {e}")
                 continue
             source_label = f"{wf_name} / {fp.name}"
             events.extend(rows_to_events(df, mapping, source_label, wf_color, wf_source_url))
 
+    return events, warnings
+
+
+def build_events(config: dict) -> list[dict]:
+    """Read data from every configured source and return FullCalendar events."""
+    fingerprint = _config_fingerprint(config)
+    config_json = json.dumps(config, sort_keys=True)
+    events, warnings = _build_events_cached(fingerprint, config_json)
+    for w in warnings:
+        st.warning(w)
     return events
 
 
