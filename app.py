@@ -50,6 +50,10 @@ FIELD_DESCRIPTIONS = {
     "color": "Event colour (hex code or CSS colour name)",
 }
 
+_TIME_PATTERN = re.compile(
+    r'(\d{1,2}):(\d{2})(?::(\d{2}))?\s*(AM|PM|am|pm)?', re.IGNORECASE
+)
+
 DEFAULT_COLORS = [
     "#3788d8",  # blue
     "#e5383b",  # red
@@ -79,7 +83,13 @@ IS_CLOUD = (
 # ---------------------------------------------------------------------------
 
 def load_config() -> dict:
-    """Load sheet configurations from JSON file."""
+    """Load sheet configurations from JSON file (cached by mtime within a rerun)."""
+    mtime = CONFIG_PATH.stat().st_mtime if CONFIG_PATH.exists() else 0
+    return _load_config_cached(mtime)
+
+
+@st.cache_data(show_spinner=False, ttl=60)
+def _load_config_cached(_mtime: float) -> dict:
     if CONFIG_PATH.exists():
         with open(CONFIG_PATH, "r") as f:
             return json.load(f)
@@ -90,6 +100,7 @@ def save_config(config: dict):
     """Persist sheet configurations to JSON file (and sync to GitHub on cloud)."""
     with open(CONFIG_PATH, "w") as f:
         json.dump(config, f, indent=2)
+    _load_config_cached.clear()
     if IS_CLOUD:
         push_file_to_github("config.json", "Update config via app")
 
@@ -195,10 +206,17 @@ def resolve_path(raw: str) -> Path:
 
 
 def discover_files_in_folder(folder: str | Path) -> list[Path]:
-    """Return all supported data files in a folder (non-recursive)."""
+    """Return all supported data files in a folder (non-recursive, cached)."""
     folder = resolve_path(str(folder))
     if not folder.is_dir():
         return []
+    mtime = folder.stat().st_mtime
+    return _discover_files_cached(str(folder), mtime)
+
+
+@st.cache_data(show_spinner=False, ttl=120)
+def _discover_files_cached(folder_str: str, _mtime: float) -> list[Path]:
+    folder = Path(folder_str)
     return sorted(
         p for p in folder.iterdir()
         if p.is_file() and p.suffix.lower() in SUPPORTED_EXTENSIONS
@@ -449,11 +467,7 @@ def parse_time(value) -> str | None:
             except ValueError:
                 continue
 
-    # Try common time-only formats (take just the first time in the string)
-    time_pattern = re.compile(
-        r'(\d{1,2}):(\d{2})(?::(\d{2}))?\s*(AM|PM|am|pm)?', re.IGNORECASE
-    )
-    m = time_pattern.search(value)
+    m = _TIME_PATTERN.search(value)
     if m:
         hour, minute = int(m.group(1)), int(m.group(2))
         ampm = m.group(4)
@@ -494,7 +508,7 @@ def rows_to_events(
                 v = v[1:-1]
             if v:
                 filter_values.add(v.lower())
-    for _, row in df.iterrows():
+    for row in df.to_dict(orient="records"):
         # Per-source row filter: skip rows that don't match any allowed value
         if filter_values is not None:
             cell_val = str(row.get(row_filter["column"], "")).strip().lower()
@@ -561,13 +575,15 @@ def rows_to_events(
     return events
 
 
-def _config_fingerprint(config: dict) -> str:
+def _config_fingerprint(config: dict, config_json: str | None = None) -> str:
     """Return a stable hash of config + data file modification times.
 
-    Used as a cache key so events are recomputed when config or data changes,
-    but NOT on every Streamlit rerun (click, filter change, etc.).
+    Accepts optional pre-serialized ``config_json`` to avoid redundant
+    ``json.dumps`` calls.
     """
-    parts = [json.dumps(config, sort_keys=True)]
+    if config_json is None:
+        config_json = json.dumps(config, sort_keys=True)
+    parts = [config_json]
     for s in config.get("sheets", []):
         fp = s.get("file_path", "")
         if fp:
@@ -630,14 +646,14 @@ def _build_events_cached(_fingerprint: str, config_json: str) -> tuple[list[dict
     return events, warnings
 
 
-def build_events(config: dict) -> list[dict]:
-    """Read data from every configured source and return FullCalendar events."""
-    fingerprint = _config_fingerprint(config)
+def build_events(config: dict) -> tuple[list[dict], str]:
+    """Read data from every configured source and return (events, fingerprint)."""
     config_json = json.dumps(config, sort_keys=True)
+    fingerprint = _config_fingerprint(config, config_json)
     events, warnings = _build_events_cached(fingerprint, config_json)
     for w in warnings:
         st.warning(w)
-    return events
+    return events, fingerprint
 
 
 # ---------------------------------------------------------------------------
@@ -1899,9 +1915,8 @@ def render_calendar():
         }.get(v, v),
     )
 
-    # Load all events
-    with st.spinner("Loading events..."):
-        all_events = build_events(config)
+    # Load all events (cached; also returns fingerprint for downstream caches)
+    all_events, fingerprint = build_events(config)
 
     # Apply filters (includes Saved Views inside the expander)
     events = filter_events(all_events, config)
@@ -1914,7 +1929,6 @@ def render_calendar():
         if cutoff_past <= e.get("start", "")[:10] <= cutoff_future
     ]
 
-    fingerprint = _config_fingerprint(config)
     data_file_paths = tuple(s.get("file_path", "") for s in config.get("sheets", []))
     last_refresh = latest_data_refresh(fingerprint, data_file_paths)
     version_tag = f"  ·  deploy {GIT_HASH}" if GIT_HASH else ""
