@@ -2117,12 +2117,33 @@ def main():
     if app_password:
         _check_password()
 
-    # Keepalive: lightweight fragment that runs every 2 minutes to prevent
-    # the Streamlit WebSocket from timing out during idle periods.
-    @st.fragment(run_every="2m")
-    def _keepalive():
-        pass
-    _keepalive()
+    # Auto-recovery watchdog: if the app stalls (grey overlay) for more than
+    # 30 seconds, automatically reload the page to reconnect.
+    import streamlit.components.v1 as components
+    components.html("""<script>
+    (function() {
+        if (window._stWatchdog) return;
+        window._stWatchdog = true;
+        var staleTimer = null;
+        var observer = new MutationObserver(function() {
+            var running = window.parent.document.querySelector(
+                '[data-testid="stStatusWidget"]'
+            );
+            if (running && running.offsetParent !== null) {
+                if (!staleTimer) {
+                    staleTimer = setTimeout(function() {
+                        window.parent.location.reload();
+                    }, 45000);
+                }
+            } else {
+                if (staleTimer) { clearTimeout(staleTimer); staleTimer = null; }
+            }
+        });
+        observer.observe(window.parent.document.body, {
+            childList: true, subtree: true, attributes: true
+        });
+    })();
+    </script>""", height=0)
 
     # Admin unlock via secret password (stored in Streamlit secrets, not in code)
     if "admin_unlocked" not in st.session_state:
