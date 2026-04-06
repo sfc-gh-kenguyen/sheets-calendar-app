@@ -201,3 +201,5 @@ Date,Time Published,Title,Author,Submission Date,Status,Persona,WG
 ,,dbt for Cortex AI : A design pattern,Chinmayee Lakkad,2026-03-31,In Review,,
 ,,"The Evolution of Snowflake Data Consumption: Past, Present, and Future",Cesar Segura,2026-04-02,In Review,,
 ,,Interoperability Series: Snowflake & Databricks: CLD + Cortex AI,Richie Bachala,2026-04-03,In Review,,
+,,The Repo Is the Harness — How we made an 8-year-old codebase agent-native,Lukas Masuch,2026-04-05,In Review,,
+,,Beyond Basic SCIM: Custom Role and Warehouse Mapping with Microsoft Entra ID and Snowflake,Parshu Anantharam,2026-04-05,In Review,,
