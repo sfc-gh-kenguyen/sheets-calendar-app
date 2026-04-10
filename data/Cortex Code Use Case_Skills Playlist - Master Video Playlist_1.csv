@@ -1,73 +1,44 @@
-This sheet represents the master video playlist of Cortex Code demos from our internal teams. They will be featured on all our social channels when published.,,,,,,,,,,,,,
-"If you'd like to add your video to this master playlist, 1) make sure a video below doesn't already exist. 2) submit your name and details below for review. 3) Krista & Elani will schedule time with you to record your demo.",,,,,,,,,,,,,
-Questions? Ask Krista Rockson ,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-Cortex Code Self-Recording Guide,,,,,,,,,,,,,
-[Template] Cortex Code Video Script: [Skill Name] ,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-Use Case Title,DRI,Status,Audience,"CLI, UI, both?",Final YT Link,Final RAW file,Script,Raw footage,Draft for Review,Thumb text (3-5 words),Youtube Title (50-60 characters),Youtube Description,Link to LI Social Post(s)
-Building Incremental Pipelines with Dynamic Tables (formerly convert streams/tasks to DTs),PD Dutta / Vino Duraisamy,7-Blocked,DE,CLI,Link / Short,,Cortex Code Video Script: Dynamic Tables,,,,,,
-Marketplace Discovery via CoCo,Robbie Hostetler Sartaj Kaur,2-Recording scheduled,All ,Both,,,Cortex Code Video Script: Marketplace Discovery,,,,,,
-Internal app development with Streamlit,Arnaud Miribel,1-Scripting,All,Both,,,Cortex Code Video Script: Streamlit Apps,,,,,,
-Managing admin functions (e.g. cost/RBAC),Dash Desai,1-Scripting,Admins,Both,,,"Cortex Code Video Script: Admin Functions (e.g. RBAC, cost-intelligence)",,,,,,
-Create and optimize semantic models,Abhinav Vadrevu,1-Scripting,All,Both,Link / Short,,Cortex Code Video Script: Semantic Views/Semantic Models,,,,,,
-Snowflake Postgres,Elizabeth Christensen Jacob Prall,2-Recording scheduled,"DE, App Devs",,,,Cortex Code Video Script: Apps on Postgres,,,,,,
-dbt data modeling using Agent Teams (Multi-Agent Orchestration),Vino Duraisamy,1-Scripting,DE,,,,,,,,,,
-Snowpark-Python,Qinyi DingAsh Ubrani,1-Scripting,,,,,Cortex Code Video Script: snowpark-python,,,,,,
-Snowpark-Connect,Brandon Carver,1-Scripting,,,,,Cortex Code Video Script: snowpark-connect,,,,,,
-CoCo Highlighting Capability,Swati Humbad,2-Recording scheduled,,,,,CoCo Highlight capability - script,,,,,,
-ML: Feature Recommendations,Lucy Zhu Doris Lee,2-Recording scheduled,ML / DS,,,,Coco for ML video series,,,,,,
-ML: Financial Quant Research,Lucy Zhu Doris Lee,2-Recording scheduled,ML / DS,,,,Coco for ML video series,,,,,,
-ML: Feature Store,Lucy Zhu Doris Lee,2-Recording scheduled,ML / DS,,,,Coco for ML video series,,,,,,
-Agent Teams,James Cha-Earley,3-Editing in progress,All,CLI,,,Cortex Code Video Script: Agent Teams,,,Let Agent Teams Do the Work,Delegate Complex Projects to an Agent Team | Cortex Code CLI,"When data projects get complex, a single agent isn't enough, and coordinating the rest still makes you a bottleneck. 
-
-Cortex Code CLI changes that. It is a data-native AI coding agent with Snowflake expertise built in that delegates complex projects to a team of specialized agents. Each agent starts with full context, a shared task list keeps everyone aligned, and the team shuts down cleanly when the work is done.
-
-Watch to learn:
-
-📋 Parallel team-based execution: How Cortex Code CLI proactively forms a team, decomposes work into a shared task list, assigns specialists, and coordinates completion across multiple phases, all without you managing the handoffs
-
-🔗 Context Continuity: How named output variables carry results forward through the pipeline so agents build on each other's work without redundant re-prompting
-
-🚦 Human-in-the-Loop: Use Ctrl+S to manage, approve, and unblock your agent team at any point in the process
-
-👉 Get started with Cortex Code CLI: https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code-cli",
-ML: What is Agentic ML,Lucy Zhu Doris Lee,3-Editing in progress,ML / DS,,,,Coco for ML video series,2_What_is_Agentic_ML,,,Agentic ML in Snowflake,Data science teams can now automate development of production-ready ML pipelines from simple natural language prompts on the same platform as the governed data.  Learn more about agentic workflows in Snowflake ML: https://www.snowflake.com/en/product/features/end-to-end-ml-workflows/,
-ML: Productionize Features and Models with Snowflake Feature Store,Lucy Zhu Doris Lee,3-Editing in progress,ML / DS,,,,Coco for ML video series,3_Productionize_Features_Models,,,,,
-ML: Feature Importance,Lucy Zhu Doris Lee,5-Approved,ML / DS,,,,Coco for ML video series,,,,,,
-ML: Fraud Detection,Lucy Zhu Doris Lee,5-Approved,ML / DS,,,,Coco for ML video series,,,,,,
-AI Functions,James Cha-Earley,6-Published,AI,CLI,Link (https://youtu.be/VR73wJDJTM8),9_AI Functions,Cortex Code Video Script: Cortex AI Functions,,,Query Multimodal Data In Seconds,From Raw PDFs to a Queryable Table in One Prompt | Cortex Code,"Extracting value from raw, unstructured data like PDFs, images, and audio shouldn't require complex OCR and custom parsers. In this video, see how Snowflake Cortex AI turns SQL into a multimodal query language and how Cortex Code CLI automates the entire process for you.
-
-What you'll learn:
-
-📄 Document Intelligence: Parse raw invoices from multiple vendors into a structured, queryable Snowflake table from a single prompt
-
-
-🖼️ Multimodal Analytics: Analyze text, images, and audio natively alongside structured data with no data movement required
-
-
-🤖 Agentic Coding: Describe what you want in plain language and let Cortex Code CLI handle the extraction logic and syntax
-
-Links & Resources:
-🚀 Get started with Cortex Code CLI: https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code-cli
-🛠️ Try Cortex AI Functions: https://snowflake.com/en/developers/guides/getting-started-with-cortex-aisql/
-📖 Full Documentation: https://docs.snowflake.com/en/user-guide/snowflake-cortex/aisql
-#Snowflake #CortexAI #AgenticWorkflows #DataEngineering #AI
-",
-ML: Feature Importance and Recommendation,Lucy Zhu Doris Lee,6-Published,ML / DS,UI,Link (https://www.youtube.com/watch?v=zARMUTv_H5Y),,Coco for ML video series,1_Long_Feature Importance_Recommendation,,Feature Engineering with Agentic ML,Simplifying Feature Engineering with Agentic ML in Snowflake,"See how Cortex Code, Snowflake’s AI coding agent, simplifies feature engineering. Automatically detect data issues, understand feature importance, uncover model blind spots, and get smart feature recommendations -- all with simple natural language prompts.  Learn more about agentic workflows in Snowflake ML: https://www.snowflake.com/en/product/features/end-to-end-ml-workflows/",
-Cortex Code Overview (101),James Cha-Earley,6-Published,All,CLI,Link / Short,16:9 MP4 ; Final Social 9:16,Coco Overview  Social Cut,Cortex Code: 101 Overview,Final 16:9 edit; ,Cortex Code CLI Overview,Build In Snowflake Faster With Cortex Code CLI,"Learn how Cortex Code CLI brings Snowflake expertise into your terminal or favorite IDE, so you can turn plain-language prompts into real work inside Snowflake. Explore built-in skills for pipelines, semantic views, and agents, plus how to extend Cortex Code with your own skills.",
-dbt Development in a Single Prompt ,Uche Nkadi,6-Published,DE,CLI,Link / Short,Source MP4 (https://drive.google.com/drive/folders/1Kzx7UpWoAZkkPPxR7BWdDaxIz1vCDg01?usp=drive_link),Q1 Coco + DE Use Cases Video Briefs,2_dbt_101,Draft Link (https://f.io/bvtr3TtL),dbt Development in a Single Prompt,Build dbt Projects in Snowflake with a Single Prompt,"Build a complete dbt project in Snowflake with a single prompt using Cortex Code CLI. See how Cortex Code scans source tables, generates models, adds tests, runs builds, validates outputs, and produces a shareable report, all from your terminal. What used to take hours of context-switching across tools now takes minutes.",
-Optimizing dbt for speed and cost,Uche Nkadi,6-Published,DE,CLI,Link / Short,Source MP4 (https://drive.google.com/drive/folders/17C4OqC4ZjvRgBdAWUs0YxJFYy2vxGBHt?usp=drive_link),Q1 Coco + DE Use Cases Video Briefs,3_dbt_201,Draft social 9:16 (https://f.io/tnGBUf2a),Optimize dbt Projects for Speed,Optimize dbt Projects for Speed With Cortex Code,"dbt projects are easy to build, but keeping them fast and cost-efficient is another challenge. As source tables grow and models become more complex, runtimes increase and performance issues get harder to pinpoint. In this demo, Cortex Code CLI analyzes your project’s run_results.json, identifies the slowest models, flags unused ones, and suggests specific optimizations you can apply immediately, all from a single prompt in your terminal.",
-Airflow - Debugging a failed DAG run ,Danmei Xu,6-Published,DE,CLI,Link / Short,Source MP4 (https://drive.google.com/drive/folders/16LGdSBChImZMEsCsOI20_NhXaWzXZxir?usp=drive_link),Q1 Coco + DE Use Cases Video Briefs,4_Airflow,Draft Link; Draft social 9:16,Debug Apache Airflow® DAGs,Debug Apache Airflow® DAG Failures With Snowflake Cortex Code,"Learn how Cortex Code CLI helps you debug a failed Airflow DAG run end to end, from task status to dbt logs and Snowflake validation. See how a single prompt traces a failed dbt model, inspects the model SQL, checks upstream dependencies in Snowflake, and identifies the root cause, a broken source table. This workflow fits Airflow running locally, on Kubernetes, or on MWAA, and supports follow-up prompts for data quality checks and downstream impact analysis.",
-dbt Core functionality,Zachary Blackwood,6-Published,DE,CLI,Link / Short,Source MP4 (https://drive.google.com/drive/folders/1XaEvMr1Hej9mSEZtCXopMDlmbMZfX8kF?usp=drive_link),Q1 Coco + DE Use Cases Video Briefs,6_dbt_Core,,Faster dbt Core Builds,Make Your dbt Core Builds Faster with Cortex Code,"When dbt builds fail or pipelines slow down, Cortex Code CLI accelerates troubleshooting by bringing Snowflake expertise directly to your terminal. By reading your project files—including models, tests, and lineage—without requiring a manual compile, it can instantly identify bottlenecks, perform blast radius analysis, and audit test coverage.  This data-native AI agent combines dbt project structure with Snowflake query history to provide a prioritized improvement plan, allowing you to trace dependencies and refactor code from a single prompt with total confidence.",
-Data Exploration / Analysis,Tyler Simons,6-Published,All,CLI,Link / Short,Source MP4 (https://drive.google.com/drive/folders/1-mfOScWrVIET9mwBhBqs2EItpm1JdUqM?usp=drive_link),Q1 Coco Use Cases Video Briefs,Cortex Code: 101 Data Visualizations,,From Data Chaos to Clarity,Rapid Data Exploration with Cortex Code CLI,"Data exploration usually means inspecting schemas, profiling columns, and writing exploratory code just to understand what’s there. In this demo, we use Cortex Code CLI to handle that work directly from the terminal on real Snowflake data. Anything you want to understand in your data, just ask Cortex Code.",
-Building Cortex Data Agents,James Cha-Earley,6-Published,All,CLI,Link / Short,Source MP4 (https://drive.google.com/drive/folders/1Zu2wsrlCvcToKUGZIuyqhZKQfwj_EuOq?usp=drive_link),,Cortex Code: 201 Building Data Agent,https://f.io/MOQ_vBvu,AI Agents That Scale,Ship AI Agents Fast with Cortex Code CLI,"Vibe-coded agents can look impressive, but they often become brittle when exposed to real enterprise data. In this walkthrough, we use Cortex Code CLI to build a Cortex Agent powered directly by governed Snowflake data. We combine structured metrics, unstructured search, routing logic, and guardrails, then deploy to Snowflake Intelligence.",
-DCM Projects,Jena Donlin Jan Sommerfeld,7-Blocked,"DE, App Devs",CLI,,,Cortex Code Video Script: DCM Projects,,,,,,
-Openflow,Shiyi Gu,7-Blocked,,,,,,,,,,,
-Authoring Snowpark Pipelines,Vino Duraisamy,New submission,DE,,,,,,,,,,
-How to Build a Skill,Vino Duraisamy,New submission,All,,,,,,,,,,
-Snowpipe Streaming End-to-End (https://docs.google.com/document/d/1lMuyHbF5S702toUFPV1S9bkOgSFVyyVgMrFu-JSooAE/edit?disco=AAABzZRNiRs&tab=t.0),Vino Duraisamy,New submission,DE,,,,,,,,,,
-Data Science Agent,Vinay Sridhar,New submission,,,,,,,,,,,
-Cortex Search Services,James Cha-Earley,New submission,,,,,,,,,,,
-[Iceberg] Diagnosing and fixing the small file problem (https://docs.google.com/document/d/1lMuyHbF5S702toUFPV1S9bkOgSFVyyVgMrFu-JSooAE/edit?tab=t.0#heading=h.uqcuvqgy1wh3),Vino Duraisamy,New submission,DE,,,,,,,,,,
+This sheet represents the master video playlist of Cortex Code demos from our internal teams. They will be featured on all our social channels when published.,,,,,,,,,,,
+"If you'd like to add your video to this master playlist, 1) make sure a video below doesn't already exist. 2) submit your name and details below for review. 3) Krista & Elani will schedule time with you to record your demo.",,,,,,,,,,,
+Questions? Ask Krista Rockson ,,,,,,,,,,,
+,,,,,,,,,,,
+Cortex Code Self-Recording Guide,,,,,,,,,,,
+[Template] Cortex Code Video Script: [Skill Name] ,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,Form (https://www.wrike.com/frontend/requestforms/index.html?token=eyJhY2NvdW50SWQiOjE5ODk1MzYsInRhc2tGb3JtSWQiOjExNDYyNzB9CTQ4NDU3MzA3NjczNzEJOWJhMmMyOGI0MDNiZjRkNDFmYzcwOTQ1ZTAzNDg2YmQ5N2VmY2QxNDE3NGQ5MmFlOGVhMTFlNjFkMTkzOWIyNg==),,,,,
+Use Case Title,DRI,Status,Audience,Where?,Script + YT,Wrike,YT Link,Thumbnail PNG,Final RAW file,Raw footage,Draft for Review
+Internal app development with Streamlit,Arnaud Miribel,1-Scripting,All,Both,Cortex Code Video Script: Streamlit Apps,,,,,,
+Managing admin functions (e.g. cost/RBAC),Rida Safdar,1-Scripting,Admins,Both,"Cortex Code Video Script: Admin Functions (e.g. RBAC, cost-intelligence)",,,,,,
+Create and optimize semantic models,Abhinav Vadrevu,1-Scripting,All,Both,Cortex Code Video Script: Semantic Views/Semantic Models,,Link / Short,,,,
+Snowpark-Python,Qinyi DingAsh Ubrani,1-Scripting,,CLI,Cortex Code Video Script: snowpark-python,,,,,,
+Snowpark-Connect,Brandon Carver,1-Scripting,,CLI,Cortex Code Video Script: snowpark-connect,,,,,,
+Marketplace Discovery via CoCo,Robbie Hostetler Sartaj Kaur,2-Recording scheduled,All ,Both,Cortex Code Video Script: Marketplace Discovery,,,,,,
+Snowflake Postgres,Elizabeth Christensen Jacob Prall,3-Editing in progress,"DE, App Devs",CLI,Cortex Code Video Script: Postgres,,,,,,
+CoCo Highlighting Capability,Swati Humbad,2-Recording scheduled,Admins,UI,CoCo Highlight capability - script,,,,,,
+ML: Feature Recommendations,Lucy Zhu Doris Lee,2-Recording scheduled,ML / DS,,Coco for ML video series,,,,,,
+ML: Financial Quant Research,Lucy Zhu Doris Lee,2-Recording scheduled,ML / DS,,Coco for ML video series,,,,,,
+ML: Feature Store,Lucy Zhu Doris Lee,2-Recording scheduled,ML / DS,,Coco for ML video series,,,,,,
+Agent Teams,James Cha-Earley,6-Published,All,CLI,Cortex Code Video Script: Agent Teams,,,,,,
+ML: What is Agentic ML,Lucy Zhu Doris Lee,3-Editing in progress,ML / DS,,Coco for ML video series,,,,,2_What_is_Agentic_ML,
+ML: Productionize Features and Models with Snowflake Feature Store,Lucy Zhu Doris Lee,3-Editing in progress,ML / DS,,Coco for ML video series,,,,,3_Productionize_Features_Models,
+ML: Feature Importance,Lucy Zhu Doris Lee,5-Approved,ML / DS,,Coco for ML video series,,,,,,
+ML: Fraud Detection,Lucy Zhu Doris Lee,5-Approved,ML / DS,,Coco for ML video series,,,,,,
+AI Functions,James Cha-Earley,6-Published,AI,CLI,Cortex Code Video Script: Cortex AI Functions,,Link (https://youtu.be/VR73wJDJTM8),,9_AI Functions,,
+ML: Feature Importance and Recommendation,Lucy Zhu Doris Lee,6-Published,ML / DS,UI,Coco for ML video series,,Link (https://www.youtube.com/watch?v=zARMUTv_H5Y),,,1_Long_Feature Importance_Recommendation,
+Cortex Code Overview (101),James Cha-Earley,6-Published,All,CLI,Coco Overview  Social Cut,,Link / Short,,16:9 MP4 ; Final Social 9:16,Cortex Code: 101 Overview,Final 16:9 edit; 
+dbt Development in a Single Prompt ,Uche Nkadi,6-Published,DE,CLI,Q1 Coco + DE Use Cases Video Briefs,,Link / Short,,Source MP4 (https://drive.google.com/drive/folders/1Kzx7UpWoAZkkPPxR7BWdDaxIz1vCDg01?usp=drive_link),2_dbt_101,Draft Link (https://f.io/bvtr3TtL)
+Optimizing dbt for speed and cost,Uche Nkadi,6-Published,DE,CLI,Q1 Coco + DE Use Cases Video Briefs,,Link / Short,,Source MP4 (https://drive.google.com/drive/folders/17C4OqC4ZjvRgBdAWUs0YxJFYy2vxGBHt?usp=drive_link),3_dbt_201,Draft social 9:16 (https://f.io/tnGBUf2a)
+Airflow - Debugging a failed DAG run ,Danmei Xu,6-Published,DE,CLI,Q1 Coco + DE Use Cases Video Briefs,,Link / Short,,Source MP4 (https://drive.google.com/drive/folders/16LGdSBChImZMEsCsOI20_NhXaWzXZxir?usp=drive_link),4_Airflow,Draft Link; Draft social 9:16
+dbt Core functionality,Zachary Blackwood,6-Published,DE,CLI,Q1 Coco + DE Use Cases Video Briefs,,Link / Short,,Source MP4 (https://drive.google.com/drive/folders/1XaEvMr1Hej9mSEZtCXopMDlmbMZfX8kF?usp=drive_link),6_dbt_Core,
+Data Exploration / Analysis,Tyler Simons,6-Published,All,CLI,Q1 Coco Use Cases Video Briefs,,Link / Short,,Source MP4 (https://drive.google.com/drive/folders/1-mfOScWrVIET9mwBhBqs2EItpm1JdUqM?usp=drive_link),Cortex Code: 101 Data Visualizations,
+Building Cortex Data Agents,James Cha-Earley,6-Published,All,CLI,Cortex Code Video Script: Cortex Agents,,Link / Short,,Source MP4 (https://drive.google.com/drive/folders/1Zu2wsrlCvcToKUGZIuyqhZKQfwj_EuOq?usp=drive_link),Cortex Code: 201 Building Data Agent,https://f.io/MOQ_vBvu
+dbt data modeling using Agent Teams (Multi-Agent Orchestration),Vino Duraisamy,7-Blocked,DE,,,,,,,,
+Building Incremental Pipelines with Dynamic Tables (formerly convert streams/tasks to DTs),PD Dutta / Vino Duraisamy,7-Blocked,DE,CLI,Cortex Code Video Script: Dynamic Tables,,Link / Short,,,,
+DCM Projects,Jena Donlin Jan Sommerfeld,7-Blocked,"DE, App Devs",CLI,Cortex Code Video Script: DCM Projects,,,,,,
+Openflow,Shiyi Gu,7-Blocked,,,,,,,,,
+Authoring Snowpark Pipelines,Vino Duraisamy,New submission,DE,,,,,,,,
+How to Build a Skill,Vino Duraisamy,New submission,All,,,,,,,,
+Snowpipe Streaming End-to-End (https://docs.google.com/document/d/1lMuyHbF5S702toUFPV1S9bkOgSFVyyVgMrFu-JSooAE/edit?disco=AAABzZRNiRs&tab=t.0),Vino Duraisamy,New submission,DE,,,,,,,,
+Data Science Agent,Vinay Sridhar,New submission,,,,,,,,,
+Cortex Search Services,James Cha-Earley,New submission,,,,,,,,,
+[Iceberg] Diagnosing and fixing the small file problem (https://docs.google.com/document/d/1lMuyHbF5S702toUFPV1S9bkOgSFVyyVgMrFu-JSooAE/edit?tab=t.0#heading=h.uqcuvqgy1wh3),Vino Duraisamy,New submission,DE,,,,,,,,
