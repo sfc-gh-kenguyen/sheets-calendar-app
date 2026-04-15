@@ -229,3 +229,8 @@ Date,Time Published,Title,Author,Submission Date,Status,Persona,WG
 ,,Monitoring Cortex Agent Performance Using Trace Data,Michael Segner,2026-04-13,In Review,,
 ,,"Architecting Data Quality in Snowflake: A Hands-on Guide to DMFs, Cortex-Code, and AI-Driven Governance",Eylon Steiner,2026-04-13,In Review,,
 ,,6 Ways to Turn Snowflake Data into Decisions: From Transforming Tables to Tracking the KPIs That Matter,Swetha Kannan,2026-04-14,In Review,,
+,,You Have Three Options to Authenticate to the Cortex REST API — Here’s How Each One Works,Navnit Shukla,2026-04-14,In Review,,
+,,The Missing Layer in Enterprise AI: How Snowflake and Atlan Power Trustworthy Intelligence at Scale,Akash Bhatt,2026-04-14,In Review,,
+,,Building Programmable AI Agents on Snowflake: A Deep Dive into the Cortex Code Agent SDK,Payam Mokhtarian,2026-04-14,In Review,,
+,,Governing Snowflake Cortex Agents with Boomi: From Ingestion to Data Activation,Boomi,2026-04-14,In Review,,
+,,From Architectural Blueprint to Automated Deployments,Marcel Daeppen,2026-04-15,In Review,,
