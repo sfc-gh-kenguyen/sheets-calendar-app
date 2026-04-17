@@ -256,7 +256,7 @@ def file_mod_time(path: str | Path) -> str:
 
 
 @st.cache_data(show_spinner=False, ttl=300)
-def latest_data_refresh(_fingerprint: str, file_paths: tuple[str, ...]) -> str:
+def latest_data_refresh(file_paths: tuple[str, ...]) -> str:
     """Return the most recent modification time across all data source files."""
     latest = ""
     for fp in file_paths:
@@ -1930,7 +1930,7 @@ def render_calendar():
     ]
 
     data_file_paths = tuple(s.get("file_path", "") for s in config.get("sheets", []))
-    last_refresh = latest_data_refresh(fingerprint, data_file_paths)
+    last_refresh = latest_data_refresh(data_file_paths)
     version_tag = f"  ·  deploy {GIT_HASH}" if GIT_HASH else ""
     st.caption(
         f"Showing {len(windowed_events)} of {len(all_events)} events "
