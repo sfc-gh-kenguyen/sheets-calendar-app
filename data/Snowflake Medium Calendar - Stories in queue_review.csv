@@ -239,3 +239,5 @@ Date,Time Published,Title,Author,Submission Date,Status,Persona,WG,Cortex Code
 ,,Operational Ontologies in Snowflake — When Your Data Warehouse Answers Like a Knowledge Graph ❄️,Morgan Adolfsson,2026-04-17,In Review,Internal,,
 ,,The Hidden “Gotchas” of Snowflake’s Cortex Analyst,Preethi Kaluva,2026-04-17,In Review,,,
 ,,The Snowflake OAuth Role That Existed — But Didn’t,Vedprakash,2026-04-17,In Review,,,
+,,Build a Self-Service Report Mart with Snowflake Semantic View,Sabrina Liu,2026-04-18,In Review,,,
+,,Snowflake Deep Dive: Unlocking the Power of MIN_BY & MAX_BY,Rajiv Gupta,2026-04-19,In Review,,,
