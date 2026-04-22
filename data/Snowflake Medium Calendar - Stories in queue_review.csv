@@ -667,3 +667,6 @@ Date,Time Published,Title,Author,Submission Date,Status,Persona,WG,CoCo,Cortex C
 ,,,,,,,,false,
 ,,,,,,,,false,
 ,,,,,,,,false,
+,,I Built an AI Complaints Triage App with Snowflake CoCo in a Single Session,Michael van Meurer,2026-04-21,In Review,,,false,
+,,dbt for Cortex AI: Harvesting patterns as Cortex Code Skills,Chinmayee Lakkad,2026-04-21,In Review,,,false,
+,,How a Case-Sensitive Default Role Broke OAuth for 166 Snowflake Users,Vedprakash,2026-04-21,In Review,,,false,
