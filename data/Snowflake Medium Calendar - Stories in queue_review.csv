@@ -248,3 +248,5 @@ Date,Time Published,Title,Author,Submission Date,Status,Persona,WG,Cortex Code
 ,,Getting Data Into Snowflake Shouldn’t Be the Hard Part,Manish Jethani,2026-04-24,In Review,,,
 ,,From Raw Claims Tables to ‘Just Ask It’ — How We Built a Full AI Analytics Stack Inside Snowflake,Nabin Pariyar,2026-04-24,In Review,,,
 ,,Stop Paying for AI. Build Your Own Coding Agent Instead.,Terence Timbang,2026-04-26,In Review,,,
+,,Azure Sql Sever to Snowflake using snowflake’s Openflow,lov arora,2026-04-27,In Review,,,
+,,Building an Ontology-Driven Supply Chain Intelligence Platform on Snowflake,Anup Moncy,2026-04-27,In Review,,,
