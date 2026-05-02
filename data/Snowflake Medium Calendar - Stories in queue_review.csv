@@ -252,3 +252,6 @@ Date,Time Published,Title,Author,Submission Date,Status,Persona,WG,Cortex Code
 ,,Managing Data Products Lifecycle on Snowflake,Jwala Vedantam,2026-04-30,In Review,,,
 ,,Integrating Microsoft Copilot Studio Agents with Snowflake Cortex Using MCP,Shankar Narayanan SGS,2026-04-30,In Review,,,
 ,,"ACCUMULATE: Any Aggregate You Can Imagine, in Pure SQL",Davide Mauri,2026-04-30,In Review,,,
+,,From 1.1 Million Filings to Real-Time Investment Intelligence: Building a 100M-Chunk Document Pipeline on Snowflake,Mubashir Masood,2026-05-01,In Review,,,
+,,Are Chatbots Really the User Experience That Leads to Value?,Michael van Meurer,2026-05-01,In Review,,,
+,,How to trace Snowflake Cortex REST API calls with Langfuse and sync the observability data back into Snowflake for enterprise-grade analytics.,Navnit Shukla,2026-05-01,In Review,,,
