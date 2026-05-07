@@ -12,8 +12,24 @@
 ,Create and optimize semantic models,Abhinav Vadrevu,1-Scripting,All,Cortex Code Video Script: Semantic Views/Semantic Models,,,,,,,,,
 ,DCM Projects,Jena Donlin Jan Sommerfeld,5-Ready for review,"DE, App Devs",Cortex Code Video Script: DCM Projects,,,Done (https://www.wrike.com/open.htm?id=4443197226),,,,,,
 ,ML#4 : Financial Quant Research,Lucy Zhu Doris Lee,Waiting for demo,ML / DS,Coco for ML video series,,,,,,,,,
-,Snowpark-Python,Qinyi DingAsh Ubrani,4- Scheduled for post-prod,,Cortex Code Video Script: snowpark-python,,,Done (https://www.wrike.com/open.htm?id=4443202047),link (https://drive.google.com/drive/folders/1sM1U0XegbnN4vEKa0tBIlvSOjq9Zd3k3?usp=drive_link),,,,,
-,Snowpark-Connect,Brandon Carver,5-Ready for review,,Cortex Code Video Script: snowpark-connect,,,Done (https://www.wrike.com/open.htm?id=4433488245),,Draft Review (https://f.io/m1kXqZ3v),,,,
+,Snowpark-Python,Qinyi DingAsh Ubrani,4- Scheduled for post-prod,,Cortex Code Video Script: snowpark-python,,,Done (https://www.wrike.com/open.htm?id=4443202047),link (https://drive.google.com/drive/folders/1sM1U0XegbnN4vEKa0tBIlvSOjq9Zd3k3?usp=drive_link),,,,,"When data projects get complex, a single agent isn't enough, and coordinating the rest still makes you a bottleneck. 
+
+Cortex Code CLI changes that. It is a data-native AI coding agent with Snowflake expertise built in that delegates complex projects to a team of specialized agents. Each agent starts with full context, a shared task list keeps everyone aligned, and the team shuts down cleanly when the work is done.
+
+Watch to learn:
+
+📋 Parallel team-based execution: How Cortex Code CLI proactively forms a team, decomposes work into a shared task list, assigns specialists, and coordinates completion across multiple phases, all without you managing the handoffs
+
+🔗 Context Continuity: How named output variables carry results forward through the pipeline so agents build on each other's work without redundant re-prompting
+
+🚦 Human-in-the-Loop: Use Ctrl+S to manage, approve, and unblock your agent team at any point in the process
+
+👉 Get started with Cortex Code CLI: "
+,Snowpark-Connect,Brandon Carver,5-Ready for review,,Cortex Code Video Script: snowpark-connect,,,Done (https://www.wrike.com/open.htm?id=4433488245),,Draft Review (https://f.io/m1kXqZ3v),,,Migrate PySpark to Snowflake with Cortex Code CLI,"Migrating a large Spark codebase to Snowflake usually means weeks of manual compatibility testing and refactoring. Most teams spend 60-70% of their engineering effort just on cluster maintenance before they even get to the migration.
+
+In this video, we point Cortex Code CLI at a directory of PySpark scripts and migrate the whole thing with a single prompt using the $snowpark-connect skill.
+
+Get started with Cortex Code 👉 https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code-cli "
 ,ML#8: Productionize Features and Models with Snowflake Feature Store,Lucy Zhu Doris Lee,Waiting for demo,ML / DS,Coco for ML video series,,,,,,,,,
 ,Marketplace Discovery,Robbie Hostetler Sartaj Kaur,7-Published,All ,Cortex Code Video Script: Marketplace Discovery,12_Released_MarketplaceDiscovery,https://www.youtube.com/watch?v=FwtN8foKQJ4,Done (https://www.wrike.com/open.htm?id=4432423121),,Final Review (https://f.io/C6vnWwcE),,,,
 ,Highlighting Capability,Swati Humbad,7-Published,Admins,CoCo Highlight capability - script,11_Released_Highlight Capability,https://youtu.be/4XOVKDLuV2M?si=MGxUlyvkqN_2U26A,Done (https://www.wrike.com/open.htm?id=4432420450),,Final Review,,,,
