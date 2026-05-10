@@ -262,3 +262,4 @@ Date,Time Published,Title,Author,Submission Date,Status,Persona,WG,Cortex Code
 ,,Agent Skills: The SOPs That Make AI Production-Ready,Vikas Malik,2026-05-07,In Review,,,
 ,,Building Aviation Open Data Lakehouse on Snowflake,Senthilnathan Jegadeeswaran,2026-05-09,In Review,,,
 ,,Snowflake External Lineage: End-to-End Pipeline Visibility with OpenLineage,Lov Arora,2026-05-09,In Review,,,
+,,Enforcing data quality in Snowflake using CHECK constraints and DML error logging,Maja Ferle,2026-05-10,In Review,,,
