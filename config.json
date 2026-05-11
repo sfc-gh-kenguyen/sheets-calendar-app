@@ -11,7 +11,7 @@
         "custom_fields": [
           {
             "label": "Working Group",
-            "column": "WG"
+            "column": "Persona"
           },
           {
             "label": "Time Published",
@@ -190,6 +190,7 @@
       "name": "Events",
       "sources": [
         "Conferences/Events (Aba)",
+        "Medium (Kevin)",
         "SVAI Events (Chad)"
       ],
       "locations": [

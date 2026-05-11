@@ -1729,8 +1729,10 @@ def filter_events(events: list[dict], config: dict | None = None) -> list[dict]:
     )
 
     # --- Sidebar: Source filter (form-based to batch selections) ---
+    # Default to all sources: an empty selection would hide every event that
+    # carries a source label (extendedProps.source), which looks like missing data.
     if "source_filter" not in st.session_state:
-        st.session_state["source_filter"] = []
+        st.session_state["source_filter"] = list(all_sources)
     else:
         valid = [s for s in st.session_state["source_filter"] if s in all_sources]
         if valid != st.session_state["source_filter"]:
