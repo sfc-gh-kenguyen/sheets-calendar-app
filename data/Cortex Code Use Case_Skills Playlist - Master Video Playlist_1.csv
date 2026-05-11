@@ -1,59 +1,43 @@
-This sheet represents the master video playlist of Cortex Code demos from our internal teams. They will be featured on all our social channels when published.,,,,,,,,,,,,,
-"If you'd like to add your video to this master playlist, 1) make sure a video below doesn't already exist. 2) submit your name and details below for review. 3) Krista & Elani will schedule time with you to record your demo.",,,,,,,,,,,,,
-Questions? Ask Krista Rockson ,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-Cortex Code Self-Recording Guide ,,,,,,,,,,,,,
-[Template] Cortex Code Video Script: [Skill Name] ,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,Form (https://www.wrike.com/frontend/requestforms/index.html?token=eyJhY2NvdW50SWQiOjE5ODk1MzYsInRhc2tGb3JtSWQiOjY1MjEyOH0JNDgwMDM2MzY3NzA2NAlhMWRlNTkzNGUzMDdmNmM3ZWUzODllYTQ3MDhhMzM0YTMzZDYwYWU3MmZkNDAyOGUwMDllNjFmMTA0MmM3OTJh),,,,,,
-Use Case Title,DRI,Status,Audience,Script + YT,Final MP4 file,YT Link,Wrike,Streamyard Recordings,Draft for Review,Thumbnail PNG,Thumb text,YT Title,YT Description
-Internal app development with Streamlit,Chanin Nantasenamat,1-Scripting,All,Cortex Code Video Script: Streamlit Apps,,,,,,,,,
-Managing admin functions (e.g. cost/RBAC),Rida Safdar,1-Scripting,Admins,"Cortex Code Video Script: Admin Functions (e.g. RBAC, cost-intelligence)",,,,,,,,,
-Create and optimize semantic models,Abhinav Vadrevu,1-Scripting,All,Cortex Code Video Script: Semantic Views/Semantic Models,,,,,,,,,
-ML#8: Productionize Features and Models with Snowflake Feature Store,Lucy Zhu Doris Lee,Waiting for demo,ML / DS,Coco for ML video series,,,,,,,,,
-ML#4 : Financial Quant Research,Lucy Zhu Doris Lee,Waiting for demo,ML / DS,Coco for ML video series,,,,,,,,,
-DCM Projects,Jena Donlin Jan Sommerfeld,5-Ready for review,"DE, App Devs",Cortex Code Video Script: DCM Projects,14_Released_CortexCode_DCM,,Done (https://www.wrike.com/open.htm?id=4443197226),link,final review (https://f.io/Ms9YZEAN),,,,
-Snowpark-Python,Qinyi DingAsh Ubrani,6-Approved,,Cortex Code Video Script: snowpark-python,15_Released_Snowpark Python,,Done (https://www.wrike.com/open.htm?id=4443202047),link (https://drive.google.com/drive/folders/1sM1U0XegbnN4vEKa0tBIlvSOjq9Zd3k3?usp=drive_link),Final Review (https://f.io/aQMXVKqh),,,,"When data projects get complex, a single agent isn't enough, and coordinating the rest still makes you a bottleneck. 
-
-Cortex Code CLI changes that. It is a data-native AI coding agent with Snowflake expertise built in that delegates complex projects to a team of specialized agents. Each agent starts with full context, a shared task list keeps everyone aligned, and the team shuts down cleanly when the work is done.
-
-Watch to learn:
-
-📋 Parallel team-based execution: How Cortex Code CLI proactively forms a team, decomposes work into a shared task list, assigns specialists, and coordinates completion across multiple phases, all without you managing the handoffs
-
-🔗 Context Continuity: How named output variables carry results forward through the pipeline so agents build on each other's work without redundant re-prompting
-
-🚦 Human-in-the-Loop: Use Ctrl+S to manage, approve, and unblock your agent team at any point in the process
-
-👉 Get started with Cortex Code CLI: "
-Snowpark-Connect,Brandon Carver,7-Published,,Cortex Code Video Script: snowpark-connect,13_Released_CortexCode_SnowparkConnect,https://youtu.be/O9fqLg2nAKc,Done (https://www.wrike.com/open.htm?id=4433488245),,Draft Review (https://f.io/m1kXqZ3v),,,Migrate PySpark to Snowflake with Cortex Code CLI,"Migrating a large Spark codebase to Snowflake usually means weeks of manual compatibility testing and refactoring. Most teams spend 60-70% of their engineering effort just on cluster maintenance before they even get to the migration.
-
-In this video, we point Cortex Code CLI at a directory of PySpark scripts and migrate the whole thing with a single prompt using the $snowpark-connect skill.
-
-Get started with Cortex Code 👉 https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code-cli "
-Marketplace Discovery,Robbie Hostetler Sartaj Kaur,7-Published,All ,Cortex Code Video Script: Marketplace Discovery,12_Released_MarketplaceDiscovery,https://www.youtube.com/watch?v=FwtN8foKQJ4,Done (https://www.wrike.com/open.htm?id=4432423121),,Final Review (https://f.io/C6vnWwcE),,,,
-Highlighting Capability,Swati Humbad,7-Published,Admins,CoCo Highlight capability - script,11_Released_Highlight Capability,https://youtu.be/4XOVKDLuV2M?si=MGxUlyvkqN_2U26A,Done (https://www.wrike.com/open.htm?id=4432420450),,Final Review,,,,
-Snowflake Postgres,Elizabeth Christensen Jacob Prall,7-Published,"DE, App Devs",Cortex Code Video Script: Postgres,08-Released - Postgres Demo,https://youtu.be/xlMlzacbzGw?si=WgsQnBGMS53NEeha,Done (https://www.wrike.com/open.htm?id=4432567258),,,,,,
-ML#5: Feature Store,Lucy Zhu Doris Lee,7-Published,ML / DS,Coco for ML video series, 26_PRG_MLCoCo_5_FeatureStore_SHORT_042326_v4.mp4,https://youtube.com/shorts/yGvEdOsfxqM,,,,,,,
-ML#3: Feature Recommendations,Lucy Zhu Doris Lee,7-Published,ML / DS,Coco for ML video series, 26_PRG_MLCoCo_3_FeatureRecommendations.mp4,https://youtube.com/shorts/R2ot-OG074M,,,,,,,
-ML#6: What is Agentic ML,Lucy Zhu Doris Lee,7-Published,ML / DS,Coco for ML video series, 26_PRG_MLCoCo_6_WhatisAgenticML_SHORT_032426_v3_VC.mp4,https://www.youtube.com/shorts/bLKDFv2A3PA,,,,,,,
-ML#2: Feature Importance,Lucy Zhu Doris Lee,7-Published,ML / DS,Coco for ML video series, 26_PRG_MLCoCo_2_FeatureEngineering_P1_032426_Social_AB_v4.mp4,https://youtube.com/shorts/MqP1NNtM-JA ,,,,,,,
-ML#1: Fraud Detection,Lucy Zhu Doris Lee,7-Published,ML / DS,Coco for ML video series,26_PRG_MLCoCo_1_FraudDetection_SHORT_040126_v3.mp4,https://youtube.com/shorts/p-PXwi3WvZ4,,,,,,,
-Agent Teams,James Cha-Earley,7-Published,All,Cortex Code Video Script: Agent Teams,10_Agent Teams,Link / Short,,,,,,,
-AI Functions,James Cha-Earley,7-Published,AI,Cortex Code Video Script: Cortex AI Functions,9_AI Functions,Link (https://youtu.be/VR73wJDJTM8),,,,,,,
-ML: Feature Importance and Recommendation,Lucy Zhu Doris Lee,7-Published,ML / DS,Coco for ML video series,,Link (https://www.youtube.com/watch?v=zARMUTv_H5Y),,1_Long_Feature Importance_Recommendation,,,,,
-Cortex Code Overview (101),James Cha-Earley,7-Published,All,Coco Overview  Social Cut,16:9 MP4 ; Final Social 9:16,Link / Short,,Cortex Code: 101 Overview,Final 16:9 edit; ,,,,
-dbt Development in a Single Prompt ,Uche Nkadi,7-Published,DE,Q1 Coco + DE Use Cases Video Briefs,Source MP4 (https://drive.google.com/drive/folders/1Kzx7UpWoAZkkPPxR7BWdDaxIz1vCDg01?usp=drive_link),Link / Short,,2_dbt_101,Draft Link (https://f.io/bvtr3TtL),,,,
-Optimizing dbt for speed and cost,Uche Nkadi,7-Published,DE,Q1 Coco + DE Use Cases Video Briefs,Source MP4 (https://drive.google.com/drive/folders/17C4OqC4ZjvRgBdAWUs0YxJFYy2vxGBHt?usp=drive_link),Link / Short,,3_dbt_201,Draft social 9:16 (https://f.io/tnGBUf2a),,,,
-Airflow - Debugging a failed DAG run ,Danmei Xu,7-Published,DE,Q1 Coco + DE Use Cases Video Briefs,Source MP4 (https://drive.google.com/drive/folders/16LGdSBChImZMEsCsOI20_NhXaWzXZxir?usp=drive_link),Link / Short,,4_Airflow,Draft Link; Draft social 9:16,,,,
-dbt Core functionality,Zachary Blackwood,7-Published,DE,Q1 Coco + DE Use Cases Video Briefs,Source MP4 (https://drive.google.com/drive/folders/1XaEvMr1Hej9mSEZtCXopMDlmbMZfX8kF?usp=drive_link),Link / Short,,6_dbt_Core,,,,,
-Data Exploration / Analysis,Tyler Simons,7-Published,All,Q1 Coco Use Cases Video Briefs,Source MP4 (https://drive.google.com/drive/folders/1-mfOScWrVIET9mwBhBqs2EItpm1JdUqM?usp=drive_link),Link / Short,,Cortex Code: 101 Data Visualizations,,,,,
-Building Cortex Data Agents,James Cha-Earley,7-Published,All,Cortex Code Video Script: Cortex Agents,Source MP4 (https://drive.google.com/drive/folders/1Zu2wsrlCvcToKUGZIuyqhZKQfwj_EuOq?usp=drive_link),Link / Short,,Cortex Code: 201 Building Data Agent,https://f.io/MOQ_vBvu,,,,
-dbt data modeling using Agent Teams (Multi-Agent Orchestration),Vino Duraisamy,8-Blocked,DE,,,,,,,,,,
-Building Incremental Pipelines with Dynamic Tables (formerly convert streams/tasks to DTs),PD Dutta / Vino Duraisamy,8-Blocked,DE,Cortex Code Video Script: Dynamic Tables,,Link / Short,,,,,,,
-Openflow,Maria Ho,1-Scripting,DE,,,,,,,,,,
-Data Science Agent,Vinay Sridhar,New submission,,,,,,,,,,,
-Cortex Search Services,James Cha-Earley,New submission,,,,,,,,,,,
-Document extraction pipeline with Cortex AI functions,Neeraj Jain,1-Scripting,All, Cortex Code Video Script: Document extraction using Document intelligence skill,,,,,,,,,
-Arctic-extract fine-tuning with Cortex AI functions,Neeraj Jain,New submission,All,,,,,,,,,,
-Visual analysis extraction,Neeraj Jain,New submission,All,,,,,,,,,,
+This sheet represents the master video playlist of Cortex Code demos from our internal teams. They will be featured on all our social channels when published.,,,,,,,,,,,,,,
+"If you'd like to add your video to this master playlist, 1) make sure a video below doesn't already exist. 2) submit your name and details below for review. 3) Krista & Elani will schedule time with you to record your demo.",,,,,,,,,,,,,,
+Questions? Ask Krista Rockson ,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Cortex Code Self-Recording Guide ,,,,,,,,,,,,,,
+[Template] Cortex Code Video Script: [Skill Name] ,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,Form (https://www.wrike.com/frontend/requestforms/index.html?token=eyJhY2NvdW50SWQiOjE5ODk1MzYsInRhc2tGb3JtSWQiOjY1MjEyOH0JNDgwMDM2MzY3NzA2NAlhMWRlNTkzNGUzMDdmNmM3ZWUzODllYTQ3MDhhMzM0YTMzZDYwYWU3MmZkNDAyOGUwMDllNjFmMTA0MmM3OTJh),,,,,,
+Use Case Title,DRI,Status,Audience,Script + YT,Social post,Final MP4 file,YT Link,Wrike,Streamyard Recordings,Draft for Review,Thumbnail PNG,Thumb text,YT Title,YT Description
+Internal app development with Streamlit,Chanin Nantasenamat,1-Scripting,All,https://docs.google.com/document/d/1wSkQtATjTp2C3nn3BartK8_bOWk6LcWUJLcF-SHOm_Y/edit?tab=t.0,,,,,,,,,,
+Managing admin functions (e.g. cost/RBAC),Rida Safdar,1-Scripting,Admins,https://docs.google.com/document/d/14jZeeM3YFOuhyXuOm3ubPvPb2zoMlIy0p-TkGL3V-qw/edit?tab=t.0,,,,,,,,,,
+Create and optimize semantic models,Abhinav Vadrevu,1-Scripting,All,https://docs.google.com/document/d/1LQx5s9gpLKTRa75E-WKPJ5KSpF-EobAoR_q5X46piaU/edit?tab=t.0,,,,,,,,,,
+ML#8: Productionize Features and Models with Snowflake Feature Store,Doris Lee,Waiting for demo,ML / DS,https://docs.google.com/document/d/1kDPL8Jrh-Ho3R65fRrSCdfBImAG_mVTbgrOZsbuDWS8/edit?tab=t.fejibwa7i250,,,,,,,,,,
+ML#4 : Financial Quant Research,Doris Lee,Waiting for demo,ML / DS,https://docs.google.com/document/d/1kDPL8Jrh-Ho3R65fRrSCdfBImAG_mVTbgrOZsbuDWS8/edit?tab=t.rtnme9qi710l#heading=h.iak64fvmchts,,,,,,,,,,
+DCM Projects,Jan Sommerfeld,5-Ready for review,"DE, App Devs",https://docs.google.com/document/d/1ZJONjdN9LzwHlGRk5Ol345S_-vQeVia84RUoDMVJ5pc/edit?tab=t.35lmixvdy1wu#heading=h.wwmhg63wbr28,,14_Released_CortexCode_DCM,,Done (https://www.wrike.com/open.htm?id=4443197226),link,final review (https://f.io/Ms9YZEAN),,,,
+Snowpark-Python,Qinyi Ding,In thumbnail creation,,https://docs.google.com/document/d/1jaZpuGe-Adv2xzSGecS3vJuenyS-_IL2Ty2pnePAIls/edit?tab=t.0#heading=h.wwmhg63wbr28,,15_Released_Snowpark Python,,Done (https://www.wrike.com/open.htm?id=4443202047),link (https://drive.google.com/drive/folders/1sM1U0XegbnN4vEKa0tBIlvSOjq9Zd3k3?usp=drive_link),Final Review (https://f.io/aQMXVKqh),,,,
+Snowpark-Connect,Brandon Carver,7-Published,,https://docs.google.com/document/d/1xh07c3AehiO5X0BjQYmrFL-59SQWwjNRHyKjwHa2E9A/edit?usp=sharing,,13_Released_CortexCode_SnowparkConnect,https://youtu.be/O9fqLg2nAKc,Done (https://www.wrike.com/open.htm?id=4433488245),,Draft Review (https://f.io/m1kXqZ3v),,,,
+Marketplace Discovery,Robbie Hostetler,7-Published,All ,https://docs.google.com/document/d/1CzY2btA92S_DmHEL6Gf-4kLfdOz-gMG8D_9rRoJw9oo/edit?tab=t.0,,12_Released_MarketplaceDiscovery,https://www.youtube.com/watch?v=FwtN8foKQJ4,Done (https://www.wrike.com/open.htm?id=4432423121),,Final Review (https://f.io/C6vnWwcE),,,,
+Highlighting Capability,Swati Humbad,7-Published,Admins,https://docs.google.com/document/d/19uPNshEqC4dkJ0LM6xkbubTxc_5VsoyIZUlto8caafI/edit?tab=t.0,,11_Released_Highlight Capability,https://youtu.be/4XOVKDLuV2M?si=MGxUlyvkqN_2U26A,Done (https://www.wrike.com/open.htm?id=4432420450),,Final Review,,,,
+Snowflake Postgres,Elizabeth Christensen Jacob Prall,7-Published,"DE, App Devs",https://docs.google.com/document/d/1VhEsMQ8XAX0cv66jcnyOS9QR654fwcUo4ZROkSL7VFM/edit?tab=t.kx75c78tbvln#heading=h.knornsmkq9t,,08-Released - Postgres Demo,https://youtu.be/xlMlzacbzGw?si=WgsQnBGMS53NEeha,Done (https://www.wrike.com/open.htm?id=4432567258),,,,,,
+ML#5: Feature Store,Doris Lee,7-Published,ML / DS,https://docs.google.com/document/d/1kDPL8Jrh-Ho3R65fRrSCdfBImAG_mVTbgrOZsbuDWS8/edit?tab=t.rdfc6ty7x59j#heading=h.lqc8oeo8a7ta,, 26_PRG_MLCoCo_5_FeatureStore_SHORT_042326_v4.mp4,https://youtube.com/shorts/yGvEdOsfxqM,,,,,,,
+ML#3: Feature Recommendations,Doris Lee,7-Published,ML / DS,https://docs.google.com/document/d/1kDPL8Jrh-Ho3R65fRrSCdfBImAG_mVTbgrOZsbuDWS8/edit?tab=t.7jy0f5j1g5wt#heading=h.lqc8oeo8a7ta,, 26_PRG_MLCoCo_3_FeatureRecommendations.mp4,https://youtube.com/shorts/R2ot-OG074M,,,,,,,
+ML#6: What is Agentic ML,Doris Lee,7-Published,ML / DS,https://docs.google.com/document/d/1kDPL8Jrh-Ho3R65fRrSCdfBImAG_mVTbgrOZsbuDWS8/edit?tab=t.6jdubw5u4rh4#heading=h.lqc8oeo8a7ta,, 26_PRG_MLCoCo_6_WhatisAgenticML_SHORT_032426_v3_VC.mp4,https://www.youtube.com/shorts/bLKDFv2A3PA,,,,,,,
+ML#2: Feature Importance,Doris Lee,7-Published,ML / DS,https://docs.google.com/document/d/1kDPL8Jrh-Ho3R65fRrSCdfBImAG_mVTbgrOZsbuDWS8/edit?tab=t.479907z33q0s#heading=h.yfoqignvd24m,, 26_PRG_MLCoCo_2_FeatureEngineering_P1_032426_Social_AB_v4.mp4,https://youtube.com/shorts/MqP1NNtM-JA ,,,,,,,
+ML#1: Fraud Detection,Doris Lee,7-Published,ML / DS,https://docs.google.com/document/d/1kDPL8Jrh-Ho3R65fRrSCdfBImAG_mVTbgrOZsbuDWS8/edit?tab=t.ji0q2rpcbulz#heading=h.y6h8dcpe5oke,,26_PRG_MLCoCo_1_FraudDetection_SHORT_040126_v3.mp4,https://youtube.com/shorts/p-PXwi3WvZ4,,,,,,,
+Agent Teams,James Cha-Earley,7-Published,All,https://docs.google.com/document/d/17SOdQ6t9TB5J3JrR78sEYPEF_B84xiMggExEmRsO4uE/edit?tab=t.0,,10_Agent Teams,Link / Short,,,,,,,
+AI Functions,James Cha-Earley,7-Published,AI,https://docs.google.com/document/d/1b62lfbbklPzynTWGFDCuGOkRXYhr52kK1eH4cQpedHU/edit?tab=t.0#heading=h.qf3xdtgle5to,,9_AI Functions,Link (https://youtu.be/VR73wJDJTM8),,,,,,,
+ML: Feature Importance and Recommendation,Doris Lee,7-Published,ML / DS,https://docs.google.com/document/d/1kDPL8Jrh-Ho3R65fRrSCdfBImAG_mVTbgrOZsbuDWS8/edit?tab=t.9rd57hecqp8m#heading=h.ljzg1ujmbh0p,,,Link (https://www.youtube.com/watch?v=zARMUTv_H5Y),,1_Long_Feature Importance_Recommendation,,,,,
+Cortex Code Overview (101),James Cha-Earley,7-Published,All,https://docs.google.com/document/d/15RX-4_2gQVF8GhC7OfeiounmIIkkfxCoLVVACf2bBMs/edit?tab=t.wf8icwwsvrgi,,16:9 MP4 ; Final Social 9:16,Link / Short,,Cortex Code: 101 Overview,Final 16:9 edit; ,,,,
+dbt Development in a Single Prompt ,Uche Nkadi,7-Published,DE,https://docs.google.com/document/d/1lMuyHbF5S702toUFPV1S9bkOgSFVyyVgMrFu-JSooAE/edit?tab=t.7k9bt9dvgf8z,,Source MP4 (https://drive.google.com/drive/folders/1Kzx7UpWoAZkkPPxR7BWdDaxIz1vCDg01?usp=drive_link),Link / Short,,2_dbt_101,Draft Link (https://f.io/bvtr3TtL),,,,
+Optimizing dbt for speed and cost,Uche Nkadi,7-Published,DE,https://docs.google.com/document/d/1lMuyHbF5S702toUFPV1S9bkOgSFVyyVgMrFu-JSooAE/edit?tab=t.sruy9219chon,,Source MP4 (https://drive.google.com/drive/folders/17C4OqC4ZjvRgBdAWUs0YxJFYy2vxGBHt?usp=drive_link),Link / Short,,3_dbt_201,Draft social 9:16 (https://f.io/tnGBUf2a),,,,
+Airflow - Debugging a failed DAG run ,Danmei Xu,7-Published,DE,https://docs.google.com/document/d/1lMuyHbF5S702toUFPV1S9bkOgSFVyyVgMrFu-JSooAE/edit?tab=t.u21swl7ztyw1,,Source MP4 (https://drive.google.com/drive/folders/16LGdSBChImZMEsCsOI20_NhXaWzXZxir?usp=drive_link),Link / Short,,4_Airflow,Draft Link; Draft social 9:16,,,,
+dbt Core functionality,Zachary Blackwood,7-Published,DE,https://docs.google.com/document/d/1lMuyHbF5S702toUFPV1S9bkOgSFVyyVgMrFu-JSooAE/edit?tab=t.u56je3wizlhv,,Source MP4 (https://drive.google.com/drive/folders/1XaEvMr1Hej9mSEZtCXopMDlmbMZfX8kF?usp=drive_link),Link / Short,,6_dbt_Core,,,,,
+Data Exploration / Analysis,Tyler Simons,7-Published,All,https://docs.google.com/document/d/1lMuyHbF5S702toUFPV1S9bkOgSFVyyVgMrFu-JSooAE/edit?tab=t.rnd0z3w7vs5n,,Source MP4 (https://drive.google.com/drive/folders/1-mfOScWrVIET9mwBhBqs2EItpm1JdUqM?usp=drive_link),Link / Short,,Cortex Code: 101 Data Visualizations,,,,,
+Building Cortex Data Agents,James Cha-Earley,7-Published,All,https://docs.google.com/document/d/10zdtnJXQFaZshknEiaLF3m-03Ujm5JlkocwGNEP2K_o/edit?tab=t.vqmdj6p8jzsv,,Source MP4 (https://drive.google.com/drive/folders/1Zu2wsrlCvcToKUGZIuyqhZKQfwj_EuOq?usp=drive_link),Link / Short,,Cortex Code: 201 Building Data Agent,https://f.io/MOQ_vBvu,,,,
+dbt data modeling using Agent Teams (Multi-Agent Orchestration),,8-Blocked,DE,,,,,,,,,,,
+Building Incremental Pipelines with Dynamic Tables (formerly convert streams/tasks to DTs),,8-Blocked,DE,https://docs.google.com/document/d/1-hql2IQ9BucT6Hb4e6vnaW1AkCIaZh08QQ_G06AGd-c/edit?tab=t.0,,,Link / Short,,,,,,,
+Openflow,Maria Ho,1-Scripting,DE,,,,,,,,,,,
+Data Science Agent,Vinay Sridhar,New submission,,,,,,,,,,,,
+Cortex Search Services,James Cha-Earley,New submission,,,,,,,,,,,,
+Document extraction pipeline with Cortex AI functions,Neeraj Jain,1-Scripting,All,https://docs.google.com/document/d/1lFuv3qpiBNKFa2i3fVT6L1bS6EnhXOM87QTjrhw3_jI/edit?usp=sharing,,,,,,,,,,
+Arctic-extract fine-tuning with Cortex AI functions,Neeraj Jain,New submission,All,,,,,,,,,,,
+Visual analysis extraction,Neeraj Jain,New submission,All,,,,,,,,,,,
